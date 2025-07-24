@@ -1,0 +1,29 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-24T09:27:49.927Z\n"
+"PO-Revision-Date: 2025-07-24T10:58:17.533Z\n"
+"Last-Translator: \n"
+"Language: French\n"
+"Language-Team: \n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"MIME-Version: 1.0\n"
+
+#: src/routes/path/+page.svelte
+msgid "This is a sub path"
+msgstr "Ceci est un sous-chemin"
+
+#: src/routes/+page.svelte
+msgid "Go to sub"
+msgstr "Aller à la sous-page"
+
+#: src/routes/+page.svelte
+msgid "Welcome to SvelteKit"
+msgstr "Bienvenue sur SvelteKit"
+
+#: src/routes/+page.svelte
+msgid "Visit <0>svelte.dev/docs/kit</0> to read the documentation"
+msgstr "Visitez <0>svelte.dev/docs/kit</0> pour lire la documentation"

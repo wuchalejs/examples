@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2025-07-24T15:26:53.112Z\n"
+"POT-Creation-Date: 2025-07-24T15:26:53.112Z\n"
+
+#: src/routes/[locale]/granular/comp1.svelte
+msgid "This is component one."
+msgstr "This is component one."
+
+#: src/routes/[locale]/granular/comp2.svelte
+msgid "This is component two."
+msgstr "This is component two."
+
+#: src/routes/[locale]/granular/grouped1.svelte
+msgid "First one in the group"
+msgstr "First one in the group"
+
+#: src/routes/[locale]/granular/grouped2.svelte
+msgid "Second one in the group"
+msgstr "Second one in the group"

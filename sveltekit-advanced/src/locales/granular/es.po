@@ -1,0 +1,29 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-24T15:26:53.112Z\n"
+"PO-Revision-Date: 2025-07-24T15:27:17.983Z\n"
+"Last-Translator: \n"
+"Language: Español\n"
+"Language-Team: \n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"MIME-Version: 1.0\n"
+
+#: src/routes/[locale]/granular/comp1.svelte
+msgid "This is component one."
+msgstr "Este es el componente uno."
+
+#: src/routes/[locale]/granular/comp2.svelte
+msgid "This is component two."
+msgstr "Este es el componente dos."
+
+#: src/routes/[locale]/granular/grouped1.svelte
+msgid "First one in the group"
+msgstr "El primero del grupo"
+
+#: src/routes/[locale]/granular/grouped2.svelte
+msgid "Second one in the group"
+msgstr "Segundo en el grupo"
