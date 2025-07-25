@@ -1,4 +1,4 @@
-# Wuchale Examples 🦜
+# 📜`wuchale` Examples🪶
 
 This repo contains fully working examples of
 **[`wuchale`](https://github.com/K1DV5/wuchale)**, the modern
@@ -12,12 +12,15 @@ support.
 
 ## 🔰 Examples Overview
 
-| Example              | Description                                               | Catalog Strategy  |
-|----------------------|-----------------------------------------------------------|-------------------|
-| `vanilla`            | Minimal setup in plain JS/TS (no framework)               | Single catalog    |
-| `svelte`             | Svelte integration (no routing, no SvelteKit)             | Single catalog    |
-| `sveltekit`          | Basic SvelteKit routing + language detection              | Single catalog    |
-| `sveltekit-advanced` | Granular, per-file and group-based catalogs + SSR support | Multiple, dynamic |
+| Example              | Description                                                        | Catalog Strategy  |
+|----------------------|--------------------------------------------------------------------|-------------------|
+| `vanilla`            | Minimal setup in plain JS/TS (no framework)                        | Single catalog    |
+| `svelte`             | Svelte integration (no routing, no SvelteKit)                      | Single catalog    |
+| `sveltekit`          | Basic SvelteKit routing + language detection + SSR                 | Single catalog    |
+| `sveltekit-advanced` | - `sveltekit` example                                              | Multiple, dynamic |
+|                      | - locale in route                                                  |                   |
+|                      | - `Tailwind` integration                                           |                   |
+|                      | - multiple adapters: granular, per-file and group-based catalogs   |                   |
 
 > The sveltekit examples are fully functional even with JavaScript disabled.
 
