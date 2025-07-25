@@ -10,25 +10,25 @@ support.
 
 ## 🔰 Examples Overview
 
-1. `vanilla`
+### 1. `vanilla`
 
 - Uses only Wuchale core and the builtin adapter-vanilla
 - Works directly with the DOM
 - Uses a single catalog per locale
 
-2. `svelte`
+### 2. `svelte`
 
 - Shows how to use Wuchale in a basic Svelte app (no routing)
 - Great for client-only Svelte projects
 - Uses a single catalog per locale
 
-3. `sveltekit`
+### 3. `sveltekit`
 
 - Basic SvelteKit integration with locale inside query parameters `/?locale=en`
 - Supports SSR so it works even without JavaScript
 - Uses a single catalog per locale
 
-4. `sveltekit-advanced`
+### 4. `sveltekit-advanced`
 
 - Routes directly as URL parameters like `/en`
 - Supports SSR so it works even without JavaScript
