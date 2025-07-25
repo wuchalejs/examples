@@ -15,7 +15,7 @@ support.
 
 [![Vanilla TS example on StackBlitz](https://img.shields.io/badge/StackBlitz-Demo-blue?logo=stackblitz)](https://stackblitz.com/github/wuchalejs/examples/tree/main/vanilla?file=wuchale.config.js)
 
-- Uses only Wuchale core and the builtin adapter-vanilla
+- Uses only `wuchale` core and the builtin adapter-vanilla
 - Works directly with the DOM
 - Uses a single catalog per locale
 
@@ -23,7 +23,7 @@ support.
 
 [![Svelte example on StackBlitz](https://img.shields.io/badge/StackBlitz-Demo-blue?logo=stackblitz)](https://stackblitz.com/github/wuchalejs/examples/tree/main/svelte?file=wuchale.config.js)
 
-- Shows how to use Wuchale in a basic Svelte app (no routing)
+- Shows how to use `wuchale` in a basic Svelte app (no routing)
 - Great for client-only Svelte projects
 - Uses a single catalog per locale
 
