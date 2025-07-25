@@ -8,23 +8,34 @@ Each example demonstrates a different use case and integration strategy — from
 minimal setups to advanced per-file catalog loading, including server-side
 support.
 
----
-
 ## 🔰 Examples Overview
 
-| Example              | Description                                                        | Catalog Strategy  |
-|----------------------|--------------------------------------------------------------------|-------------------|
-| `vanilla`            | Minimal setup in plain JS/TS (no framework)                        | Single catalog    |
-| `svelte`             | Svelte integration (no routing, no SvelteKit)                      | Single catalog    |
-| `sveltekit`          | Basic SvelteKit routing + language detection + SSR                 | Single catalog    |
-| `sveltekit-advanced` | - `sveltekit` example                                              | Multiple, dynamic |
-|                      | - locale in route                                                  |                   |
-|                      | - `Tailwind` integration                                           |                   |
-|                      | - multiple adapters: granular, per-file and group-based catalogs   |                   |
+1. `vanilla`
 
-> The sveltekit examples are fully functional even with JavaScript disabled.
+- Uses only Wuchale core and the builtin adapter-vanilla
+- Works directly with the DOM
+- Uses a single catalog per locale
 
----
+2. `svelte`
+
+- Shows how to use Wuchale in a basic Svelte app (no routing)
+- Great for client-only Svelte projects
+- Uses a single catalog per locale
+
+3. `sveltekit`
+
+- Basic SvelteKit integration with locale inside query parameters `/?locale=en`
+- Supports SSR so it works even without JavaScript
+- Uses a single catalog per locale
+
+4. `sveltekit-advanced`
+
+- Routes directly as URL parameters like `/en`
+- Supports SSR so it works even without JavaScript
+- Uses multiple adapters and that means multiple catalogs for different parts of the application
+- Some of the adapters divide the compiled catalogs into smaller parts for granular loading
+- Supports server generated messages using the builtin adapter-vanilla
+- Ideal for production-grade apps with large or modular UIs
 
 ## 🚀 Getting Started
 
