@@ -8,6 +8,7 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+  workflow_dispatch:
 
 jobs:
   build:
@@ -25,8 +26,10 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
+        cache-dependency-path: ${{ matrix.example }}/package-lock.json
         cache: 'npm'
-    - run: |
+    - name: Check example for ${{ matrix.example }}
+      run: |
         npm install
         npm run build
       working-directory: ${{ matrix.example }}
