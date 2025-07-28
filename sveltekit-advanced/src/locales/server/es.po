@@ -1,13 +1,18 @@
 msgid ""
 msgstr ""
-"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-24T18:11:16.353Z\n"
+"PO-Revision-Date: 2025-07-28T20:57:42.797Z\n"
+"Last-Translator: \n"
 "Language: Español\n"
-"MIME-Version: 1.0\n"
+"Language-Team: \n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2025-07-24T18:11:16.353Z\n"
-"POT-Creation-Date: 2025-07-24T18:11:16.353Z\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"MIME-Version: 1.0\n"
 
 #: src/routes/[locale]/+page.server.ts
+#: src/routes/[locale]/server/+page.server.ts
 msgid "Hello from the server!"
 msgstr "¡Hola desde el servidor!"

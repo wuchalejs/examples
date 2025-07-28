@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-24T15:26:53.100Z\n"
-"PO-Revision-Date: 2025-07-25T10:49:04.400Z\n"
+"PO-Revision-Date: 2025-07-28T20:57:05.880Z\n"
 "Last-Translator: \n"
 "Language: English\n"
 "Language-Team: \n"
@@ -35,3 +35,7 @@ msgstr "Visit <0>svelte.dev/docs/kit</0> to read the documentation"
 #: src/routes/[locale]/single/+page.svelte
 msgid "This is a sub path"
 msgstr "This is a sub path"
+
+#: src/routes/[locale]/+layout.svelte
+msgid "Server"
+msgstr "Server"

@@ -5,6 +5,8 @@ import { locales } from 'virtual:wuchale/locales'
 import { loadCatalogs } from 'wuchale/run-client'
 import { loadIDs, loadCatalog } from '../../locales/single/loader.svelte.js'
 
+export const prerender = true
+
 export const load: LayoutLoad = async ({params: {locale}}) => {
     if (!(locale in locales)) {
         return
