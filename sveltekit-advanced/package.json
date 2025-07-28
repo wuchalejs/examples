@@ -26,6 +26,6 @@
 	"dependencies": {
 		"@wuchale/svelte": "0.9.0",
 		"tailwindcss": "^4.1.11",
-		"wuchale": "0.9.0"
+		"wuchale": "0.9.4"
 	}
 }
