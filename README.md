@@ -68,7 +68,10 @@ support.
 
 ## 🐦 Follow development
 
-- Main repo: github.com/K1DV5/wuchale
-- NPM: npmjs.com/package/wuchale
+- Website: [wuchale.dev](https://wuchale.dev)
+- Main repo: [github.com/wuchalejs/wuchale](https://github.com/wuchalejs/wuchale)
+- NPM:
+    - [wuchale](https://npmjs.com/package/wuchale)
+    - [@wuchale/svelte](https://npmjs.com/package/@wuchale/svelte)
 
 > If you find this helpful, give it a ⭐ on GitHub and share your feedback or feature ideas!
