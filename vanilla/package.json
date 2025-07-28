@@ -13,6 +13,6 @@
     "vite": "^7.0.4"
   },
   "dependencies": {
-    "wuchale": "0.9.0"
+    "wuchale": "0.9.4"
   }
 }
