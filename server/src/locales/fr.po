@@ -1,0 +1,21 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-29T12:02:44.297Z\n"
+"PO-Revision-Date: 2025-07-29T13:40:12.987Z\n"
+"Last-Translator: \n"
+"Language: French\n"
+"Language-Team: \n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"MIME-Version: 1.0\n"
+
+#: src/index.js
+msgid "Hello World!"
+msgstr "Bonjour tout le monde !"
+
+#: src/index.js
+msgid "Home"
+msgstr "Accueil"

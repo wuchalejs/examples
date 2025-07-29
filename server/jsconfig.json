@@ -1,0 +1,12 @@
+{
+  "files": [],
+  "compilerOptions": {
+    "moduleResolution": "nodenext",
+    "target": "ES2020",
+    "module": "ESNext",
+    "strict": true,
+    "allowJs": true,
+    "checkJs": true
+  },
+  "include": ["src", "*.js"]
+}

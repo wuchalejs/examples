@@ -46,6 +46,15 @@ support.
 - Supports server generated messages using the builtin adapter-vanilla
 - Ideal for production-grade apps with large or modular UIs
 
+### 5. `server`
+
+[![Server example on StackBlitz](https://img.shields.io/badge/StackBlitz-Demo-blue?logo=stackblitz)](https://stackblitz.com/github/wuchalejs/examples/tree/main/server?file=wuchale.config.js)
+
+- Uses the write files functionality to work in the absense of Vite
+- Uses only the builtin vanilla adapter
+- Uses Express as the framework
+- Shows how to use `wuchale` with server-only projects
+
 ## 🚀 Getting Started
 
 1. **Clone the repo** and go to one of the examples.

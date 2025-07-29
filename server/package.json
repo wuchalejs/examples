@@ -1,0 +1,18 @@
+{
+    "name": "server",
+    "type": "module",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "extract": "wuchale extract",
+        "serve": "wuchale extract && node dist/src/index.js",
+        "build": "wuchale extract"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "express": "^5.1.0",
+        "wuchale": "^0.9.6"
+    }
+}
