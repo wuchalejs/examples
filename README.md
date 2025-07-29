@@ -48,7 +48,7 @@ support.
 
 ### 5. `server`
 
-[![Server example on StackBlitz](https://img.shields.io/badge/StackBlitz-Demo-blue?logo=stackblitz)](https://stackblitz.com/github/wuchalejs/examples/tree/main/server?file=wuchale.config.js)
+[![Server example on StackBlitz](https://img.shields.io/badge/StackBlitz-Demo-blue?logo=stackblitz)](https://stackblitz.com/github/wuchalejs/examples/tree/main/server?file=wuchale.config.js&startScript=serve)
 
 - Uses the write files functionality to work in the absense of Vite
 - Uses only the builtin vanilla adapter
