@@ -3,10 +3,6 @@ import { setupCounter } from './counter.ts'
 
 import { loadLocale } from 'wuchale/run-client'
 
-const showMsg = (element: HTMLParagraphElement) => {
-    element.innerHTML = 'Click on the Vite and TypeScript logos to learn more'
-}
-
 let locale = 'en'
 
 const setHTML = async () => {
@@ -20,10 +16,9 @@ const setHTML = async () => {
         <div class="card">
           <button id="counter" type="button"></button>
         </div>
-        <p class="read-the-docs"></p>
+        <p>${'Click on the Vite and TypeScript logos to learn more'}</p>
       </div>
     `
-    showMsg(document.querySelector<HTMLParagraphElement>('.read-the-docs')!)
     setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
     const lbtn = document.querySelector<HTMLButtonElement>('#locale')!
     lbtn.addEventListener('click', () => {
