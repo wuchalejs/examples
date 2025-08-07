@@ -1,6 +1,6 @@
 /// <reference types="wuchale/virtual" />
 
-import { loadCatalog, loadIDs } from 'virtual:wuchale/loader'
+import { loadCatalog, loadIDs } from 'virtual:wuchale/proxy'
 import { page } from '$app/state'
 import { Runtime } from 'wuchale/runtime'
 

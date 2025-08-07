@@ -6,7 +6,7 @@ import { loadIDs, loadCatalog } from '../locales/loader.svelte.js'
 
 export const load: LayoutLoad = async ({url}) => {
     const locale = url.searchParams.get('locale') ?? 'en'
-    if (!(locale in locales)) {
+    if (!locales.includes(locale)) {
         return
     }
     return {
