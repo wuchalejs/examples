@@ -3,7 +3,7 @@ import express from 'express'
 import { runWithLocale } from 'wuchale/run-server'
 
 const app = express()
-const port = 3000
+const port = 5173
 
 /**
  * @param {import("express-serve-static-core").Response<any, Record<string, any>, number>} res
@@ -14,7 +14,8 @@ function respond(res) {
 }
 
 const locales = ['en', 'es', 'fr']
-const list = locales.map(loc => `<div><a href="${loc}">${loc}</a></div>`).join('\n')
+const displayName = (/** @type {string} */ locale) => new Intl.DisplayNames([locale], {type: 'language'}).of(locale)
+const list = locales.map(loc => `<div><a href="${loc}">${displayName(loc)}</a></div>`).join('\n')
 const home = `
     <p>Greetings in:</p>
     ${list}

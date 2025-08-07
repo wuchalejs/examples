@@ -4,15 +4,15 @@
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-        "extract": "wuchale extract",
-        "serve": "wuchale extract && node dist/src/index.js",
-        "build": "wuchale extract"
+        "extract": "wuchale",
+        "serve": "wuchale && node dist/src/index.js",
+        "build": "wuchale"
     },
     "author": "",
     "license": "ISC",
     "description": "",
     "dependencies": {
         "express": "^5.1.0",
-        "wuchale": "^0.9.6"
+        "wuchale": "^0.10.1"
     }
 }
