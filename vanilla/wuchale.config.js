@@ -1,10 +1,9 @@
-import {adapter as basic} from 'wuchale/adapter-vanilla'
+import { adapter as basic } from 'wuchale/adapter-vanilla'
+import { defineConfig } from 'wuchale'
 
-export default {
-    locales: {
-        es: {name: 'Español'},
-    },
+export default defineConfig({
+    otherLocales: ['es'],
     adapters: {
         main: basic()
     }
-}
+})
