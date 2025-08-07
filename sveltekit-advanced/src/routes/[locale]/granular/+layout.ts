@@ -4,7 +4,7 @@ import { loadCatalogs } from 'wuchale/run-client'
 import { loadIDs, loadCatalog } from '../../../locales/granular/loader.svelte.js'
 
 export const load: LayoutLoad = async ({params: {locale}}) => {
-    if (!(locale in locales)) {
+    if (!locales.includes(locale)) {
         return
     }
     return {

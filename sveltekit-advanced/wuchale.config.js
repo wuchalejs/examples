@@ -5,10 +5,7 @@ import { adapter as vanilla } from "wuchale/adapter-vanilla"
 import { defaultGenerateLoadID } from "wuchale/adapters"
 
 export default defineConfig({
-    locales: {
-        // English included by default
-        es: { name: 'Español' },
-    },
+    otherLocales: ['es'],
     adapters: {
         // Applies over the components inside the single route as well as the top level route.
         // Uses a single compiled catalog per locale, downloaded once.

@@ -2,12 +2,13 @@
     import { goto } from '$app/navigation';
     import { locales } from 'virtual:wuchale/locales';
     const { data, children} = $props()
+    const displayName = (loc: string) => new Intl.DisplayNames([loc], {type: 'language'}).of(loc)
 </script>
 
 <div>
     <select value={data.locale} onchange={e => goto(`/${(<HTMLSelectElement>(e.target))?.value ?? ''}`)}>
-        {#each Object.entries(locales) as [locale, name]}
-            <option value={locale}>{name}</option>
+        {#each locales as locale}
+            <option value={locale}>{displayName(locale)}</option>
         {/each}
     </select>
 </div>

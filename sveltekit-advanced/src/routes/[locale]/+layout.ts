@@ -8,7 +8,7 @@ import { loadIDs, loadCatalog } from '../../locales/single/loader.svelte.js'
 export const prerender = true
 
 export const load: LayoutLoad = async ({params: {locale}}) => {
-    if (!(locale in locales)) {
+    if (!locales.includes(locale)) {
         return
     }
     return {
