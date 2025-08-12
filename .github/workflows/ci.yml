@@ -18,7 +18,7 @@ jobs:
     strategy:
       matrix:
         node-version: [20.x, 22.x]
-        example: [svelte, sveltekit, sveltekit-advanced, vanilla, server]
+        example: [react, svelte, sveltekit, sveltekit-advanced, vanilla, server]
 
     steps:
     - uses: actions/checkout@v4
