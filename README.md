@@ -19,7 +19,15 @@ support.
 - Works directly with the DOM
 - Uses a single catalog per locale
 
-### 2. `svelte`
+### 2. `react`
+
+[![React example on StackBlitz](https://img.shields.io/badge/StackBlitz-Demo-blue?logo=stackblitz)](https://stackblitz.com/github/wuchalejs/examples/tree/main/react?file=wuchale.config.js)
+
+- Shows how to use `wuchale` in a basic React app
+- Great for client-only React projects
+- Uses a single catalog per locale
+
+### 3. `svelte`
 
 [![Svelte example on StackBlitz](https://img.shields.io/badge/StackBlitz-Demo-blue?logo=stackblitz)](https://stackblitz.com/github/wuchalejs/examples/tree/main/svelte?file=wuchale.config.js)
 
@@ -27,7 +35,7 @@ support.
 - Great for client-only Svelte projects
 - Uses a single catalog per locale
 
-### 3. `sveltekit`
+### 4. `sveltekit`
 
 [![SvelteKit TS example on StackBlitz](https://img.shields.io/badge/StackBlitz-Demo-blue?logo=stackblitz)](https://stackblitz.com/github/wuchalejs/examples/tree/main/sveltekit?file=wuchale.config.js)
 
@@ -35,7 +43,7 @@ support.
 - Supports SSR so it works even without JavaScript
 - Uses a single catalog per locale
 
-### 4. `sveltekit-advanced`
+### 5. `sveltekit-advanced`
 
 [![Advanced SvelteKit example on StackBlitz](https://img.shields.io/badge/StackBlitz-Demo-blue?logo=stackblitz)](https://stackblitz.com/github/wuchalejs/examples/tree/main/sveltekit-advanced?file=wuchale.config.js)
 
@@ -46,7 +54,7 @@ support.
 - Supports server generated messages using the builtin adapter-vanilla
 - Ideal for production-grade apps with large or modular UIs
 
-### 5. `server`
+### 6. `server`
 
 [![Server example on StackBlitz](https://img.shields.io/badge/StackBlitz-Demo-blue?logo=stackblitz)](https://stackblitz.com/github/wuchalejs/examples/tree/main/server?file=wuchale.config.js&startScript=serve)
 
