@@ -21,7 +21,7 @@ support.
 
 ### 2. `react`
 
-[![React example on StackBlitz](https://img.shields.io/badge/StackBlitz-Demo-blue?logo=stackblitz)](https://stackblitz.com/github/wuchalejs/examples/tree/main/react?file=wuchale.config.js)
+[![React example on StackBlitz](https://img.shields.io/badge/StackBlitz-Demo-blue?logo=stackblitz)](https://stackblitz.com/github/wuchalejs/examples/tree/main/react?file=wuchale.config.js,src%2FApp.tsx)
 
 - Shows how to use `wuchale` in a basic React app
 - Great for client-only React projects
@@ -29,7 +29,7 @@ support.
 
 ### 3. `svelte`
 
-[![Svelte example on StackBlitz](https://img.shields.io/badge/StackBlitz-Demo-blue?logo=stackblitz)](https://stackblitz.com/github/wuchalejs/examples/tree/main/svelte?file=wuchale.config.js)
+[![Svelte example on StackBlitz](https://img.shields.io/badge/StackBlitz-Demo-blue?logo=stackblitz)](https://stackblitz.com/github/wuchalejs/examples/tree/main/svelte?file=wuchale.config.js,src%2FApp.svelte)
 
 - Shows how to use `wuchale` in a basic Svelte app (no routing)
 - Great for client-only Svelte projects
@@ -37,7 +37,7 @@ support.
 
 ### 4. `sveltekit`
 
-[![SvelteKit TS example on StackBlitz](https://img.shields.io/badge/StackBlitz-Demo-blue?logo=stackblitz)](https://stackblitz.com/github/wuchalejs/examples/tree/main/sveltekit?file=wuchale.config.js)
+[![SvelteKit TS example on StackBlitz](https://img.shields.io/badge/StackBlitz-Demo-blue?logo=stackblitz)](https://stackblitz.com/github/wuchalejs/examples/tree/main/sveltekit?file=wuchale.config.js,src%2Froutes%2F+page.svelte)
 
 - Basic SvelteKit integration with locale inside query parameters `/?locale=en`
 - Supports SSR so it works even without JavaScript
@@ -45,7 +45,7 @@ support.
 
 ### 5. `sveltekit-advanced`
 
-[![Advanced SvelteKit example on StackBlitz](https://img.shields.io/badge/StackBlitz-Demo-blue?logo=stackblitz)](https://stackblitz.com/github/wuchalejs/examples/tree/main/sveltekit-advanced?file=wuchale.config.js)
+[![Advanced SvelteKit example on StackBlitz](https://img.shields.io/badge/StackBlitz-Demo-blue?logo=stackblitz)](https://stackblitz.com/github/wuchalejs/examples/tree/main/sveltekit-advanced?file=wuchale.config.js,src%2Froutes%2F[locale]%2F%2Bpage.svelte)
 
 - Routes directly as URL parameters like `/en`
 - Supports SSR so it works even without JavaScript
@@ -56,7 +56,7 @@ support.
 
 ### 6. `server`
 
-[![Server example on StackBlitz](https://img.shields.io/badge/StackBlitz-Demo-blue?logo=stackblitz)](https://stackblitz.com/github/wuchalejs/examples/tree/main/server?file=wuchale.config.js&startScript=serve)
+[![Server example on StackBlitz](https://img.shields.io/badge/StackBlitz-Demo-blue?logo=stackblitz)](https://stackblitz.com/github/wuchalejs/examples/tree/main/server?file=wuchale.config.js,src%2Findex.js&startScript=serve)
 
 - Uses the write files functionality to work in the absense of Vite
 - Uses only the builtin vanilla adapter
