@@ -1,6 +1,6 @@
 import type { Handle } from '@sveltejs/kit';
 import './locales/server/loader.js'
-import { runWithLocale } from 'wuchale/run-server';
+import { runWithLocale } from 'wuchale/load-utils/server';
 
 export const handle: Handle = async ({ event, resolve }) => {
     const locale = event.params.locale ?? 'en';

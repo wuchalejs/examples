@@ -1,8 +1,7 @@
 // @ts-check
-import { defineConfig } from "wuchale"
+import { defineConfig, defaultGenerateLoadID } from "wuchale"
 import { adapter as svelte } from '@wuchale/svelte'
 import { adapter as vanilla } from "wuchale/adapter-vanilla"
-import { defaultGenerateLoadID } from "wuchale/adapters"
 
 export default defineConfig({
     otherLocales: ['es'],
@@ -56,7 +55,6 @@ export default defineConfig({
                 compiled: true,
                 proxy: true,
             },
-            initInsideFunc: true,
         }),
     },
 })

@@ -1,6 +1,6 @@
 import type { LayoutLoad } from './$types'
 import { locales } from 'virtual:wuchale/locales'
-import { loadCatalogs } from 'wuchale/run-client'
+import { loadCatalogs } from 'wuchale/load-utils/pure'
 import { loadIDs, loadCatalog } from '../../../locales/granular/loader.svelte.js'
 
 export const load: LayoutLoad = async ({params: {locale}}) => {

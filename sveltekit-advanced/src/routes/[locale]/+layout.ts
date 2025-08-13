@@ -2,7 +2,7 @@
 import type { LayoutLoad } from './$types'
 import '../app.css'
 import { locales } from 'virtual:wuchale/locales'
-import { loadCatalogs } from 'wuchale/run-client'
+import { loadCatalogs } from 'wuchale/load-utils/pure'
 import { loadIDs, loadCatalog } from '../../locales/single/loader.svelte.js'
 
 export const prerender = true
