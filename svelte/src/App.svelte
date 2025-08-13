@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { loadLocale } from 'wuchale/run-client'
+  import { loadLocale } from 'wuchale/load-utils'
   import Counter from './lib/Counter.svelte'
 
   let locale = $state('en')
