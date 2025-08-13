@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "typescript": "~5.9.2",
-    "vite": "^7.0.6"
+    "vite": "^7.1.2"
   },
   "dependencies": {
     "@wuchale/vite-plugin": "^0.12.0",
