@@ -1,0 +1,21 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-12T10:46:29.139Z\n"
+"PO-Revision-Date: 2025-08-13T19:40:46.291Z\n"
+"Last-Translator: \n"
+"Language: en\n"
+"Language-Team: \n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"MIME-Version: 1.0\n"
+
+#: src/App.tsx
+msgid "Edit <0>src/App.tsx</0> and save to reload."
+msgstr "Edit <0>src/App.tsx</0> and save to reload."
+
+#: src/App.tsx
+msgid "Learn Solid"
+msgstr "Learn Solid"

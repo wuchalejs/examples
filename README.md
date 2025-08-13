@@ -54,6 +54,14 @@ support.
 - Supports server generated messages using the builtin adapter-vanilla
 - Ideal for production-grade apps with large or modular UIs
 
+### 6. `solidjs`
+
+[![SolidJS example on StackBlitz](https://img.shields.io/badge/StackBlitz-Demo-blue?logo=stackblitz)](https://stackblitz.com/github/wuchalejs/examples/tree/main/solidjs?file=wuchale.config.js,src%2FApp.tsx)
+
+- Shows how to use `wuchale` in a basic SolidJS app
+- Great for client-only SolidJS projects
+- Uses a single catalog per locale
+
 ### 6. `server`
 
 [![Server example on StackBlitz](https://img.shields.io/badge/StackBlitz-Demo-blue?logo=stackblitz)](https://stackblitz.com/github/wuchalejs/examples/tree/main/server?file=wuchale.config.js,src%2Findex.js&startScript=serve)
