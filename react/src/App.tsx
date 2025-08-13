@@ -1,7 +1,7 @@
 'use client'
 import { useEffect, useState } from 'react'
 import './App.css'
-import { loadLocale } from 'wuchale/run-client'
+import { loadLocale } from 'wuchale/load-utils'
 
 function App() {
     const [locale, setLocale] = useState('en')
