@@ -1,6 +1,6 @@
 // $cd .. && npm run serve
 import express from 'express'
-import { runWithLocale } from 'wuchale/run-server'
+import { runWithLocale } from 'wuchale/load-utils/server'
 
 const app = express()
 const port = 5173

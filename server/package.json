@@ -13,6 +13,6 @@
     "description": "",
     "dependencies": {
         "express": "^5.1.0",
-        "wuchale": "^0.10.1"
+        "wuchale": "^0.13.1"
     }
 }

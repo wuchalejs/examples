@@ -1,1 +1,1 @@
-export const c = ["¡Hola Mundo!","Inicio"]
+export let c = ["¡Hola Mundo!","Inicio"]

@@ -12,7 +12,6 @@ export default defineConfig({
                 transformed: true,
                 outDir: 'dist',
             },
-            initInsideFunc: true,
         }),
     }
 })
