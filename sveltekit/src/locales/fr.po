@@ -3,9 +3,9 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-24T09:27:49.927Z\n"
-"PO-Revision-Date: 2025-07-24T10:58:17.533Z\n"
+"PO-Revision-Date: 2025-08-16T08:52:47.073Z\n"
 "Last-Translator: \n"
-"Language: French\n"
+"Language: fr\n"
 "Language-Team: \n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -27,3 +27,11 @@ msgstr "Bienvenue sur SvelteKit"
 #: src/routes/+page.svelte
 msgid "Visit <0>svelte.dev/docs/kit</0> to read the documentation"
 msgstr "Visitez <0>svelte.dev/docs/kit</0> pour lire la documentation"
+
+#~ msgid "Test Component:"
+#~ msgstr "Composant de test :"
+
+#: src/routes/foo.svelte.js
+#: src/routes/hello.svelte.js
+msgid "Hello"
+msgstr "Bonjour"
