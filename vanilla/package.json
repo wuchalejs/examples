@@ -14,6 +14,6 @@
   },
   "dependencies": {
     "@wuchale/vite-plugin": "^0.12.0",
-    "wuchale": "^0.13.1"
+    "wuchale": "^0.13.2"
   }
 }
