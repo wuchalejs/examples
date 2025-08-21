@@ -13,7 +13,7 @@ let loadC
 if (import.meta.env.SSR) { // stripped from production client builds
     const { currentCatalog } = await import('wuchale/load-utils/server')
     loadC = (/** @type {string} */ loadID) => currentCatalog(key, loadID)
-} else { // client
+} else {
     const catalogs = $state({})
     loadC = registerLoaders(key, loadCatalog, loadIDs, defaultCollection(catalogs))
 }

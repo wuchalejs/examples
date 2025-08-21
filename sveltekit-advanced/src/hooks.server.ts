@@ -1,18 +1,21 @@
 import type { Handle } from '@sveltejs/kit';
-import './locales/server/loader.js'
+import './locales/loader.js'
 import { runWithLocale, loadLocales } from 'wuchale/load-utils/server';
 
 // these loaders need SSR, need to load the loaders once at startup for the server
-import * as singleLoader from './locales/single/loader.svelte.js'
-import * as granularLoader from './locales/granular/loader.svelte.js'
+import * as single from './locales/loader.svelte.js'
+import * as granular from './locales/granular/loader.svelte.js'
 
 const locales = ['en', 'es']
 
-await loadLocales(singleLoader.key, singleLoader.loadIDs, singleLoader.loadCatalog, locales)
-await loadLocales(granularLoader.key, granularLoader.loadIDs, granularLoader.loadCatalog, locales)
+await loadLocales(single.key, single.loadIDs, single.loadCatalog, locales)
+await loadLocales(granular.key, granular.loadIDs, granular.loadCatalog, locales)
 
 export const handle: Handle = async ({ event, resolve }) => {
-    const locale = event.params.locale ?? 'en';
+    let locale = event.params.locale ?? 'en';
+    if (!locales.includes(locale)) {
+        locale = 'en'
+    }
     return await runWithLocale(locale, () =>
         resolve(event, {
             transformPageChunk: ({ html }) => html.replace('%sveltekit.lang%', locale)

@@ -1,14 +1,18 @@
 import type { LayoutLoad } from './$types'
 import { locales } from 'virtual:wuchale/locales'
-import { loadCatalogs } from 'wuchale/load-utils/pure'
-import { loadIDs, loadCatalog } from '../../../locales/granular/loader.svelte.js'
+import { browser } from '$app/environment'
+import { loadLocale } from 'wuchale/load-utils'
+// so that the loaders are registered before render
+import '../../../locales/granular/loader.svelte.js'
 
-export const load: LayoutLoad = async ({params: {locale}}) => {
+export const prerender = true
+
+export const load: LayoutLoad = async ({ params: { locale } }) => {
     if (!locales.includes(locale)) {
         return
     }
-    return {
-        locale,
-        catalogsGranular: await loadCatalogs(locale, loadIDs, loadCatalog)
+    if (browser) { // and then load
+        await loadLocale(locale)
     }
+    return { locale }
 }

@@ -10,12 +10,11 @@ export default defineConfig({
         // Uses a single compiled catalog per locale, downloaded once.
         single: svelte({
             files: [
-                './src/routes/[locale]/single/**/*.svelte',
+                './src/routes/[locale]/{single,server}/**/*.svelte',
                 './src/routes/[locale]/single/**/*.svelte.{js,ts}',
                 './src/routes/[locale]/*.svelte',
                 './src/routes/[locale]/*.svelte.{js,ts}'
             ],
-            catalog: './src/locales/single/{locale}',
             // This is to make the runtime instance get evaluated each time it is needed
             // But you don't need this if you don't put translateable text inside <script module> or .svelte.js files
             runtime: {
@@ -62,7 +61,6 @@ export default defineConfig({
         // Also since node.js is not a reactive environment, we have to initialize the runtime inside functions.
         server: vanilla({
             files: './src/**/*.server.{js,ts}',
-            catalog: './src/locales/server/{locale}',
             writeFiles: {
                 compiled: true,
                 proxy: true,

@@ -1,1 +1,1 @@
-<p>This is component two.</p>
+<p>This is component two</p>
