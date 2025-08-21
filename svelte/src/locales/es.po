@@ -3,9 +3,9 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-07T13:05:01.617Z\n"
-"PO-Revision-Date: 2025-07-26T13:39:51.351Z\n"
+"PO-Revision-Date: 2025-08-21T18:29:44.299Z\n"
 "Last-Translator: \n"
-"Language: Spanish\n"
+"Language: es\n"
 "Language-Team: \n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,10 +20,6 @@ msgstr "Vite + Svelte"
 msgid "Click on the Vite and Svelte logos to learn more"
 msgstr "Haz clic en los logotipos de Vite y Svelte para obtener más información"
 
-#: src/lib/Counter.svelte
-msgid "count is {0}"
-msgstr "el conteo es {0}"
-
 #: src/App.svelte
 msgid "Current locale: {0}"
 msgstr "Idioma actual: {0}"
@@ -31,3 +27,7 @@ msgstr "Idioma actual: {0}"
 #: src/App.svelte
 msgid "Check out <0>SvelteKit</0>, the official Svelte app framework powered by Vite!"
 msgstr "¡Echa un vistazo a <0>SvelteKit</0>, el framework oficial de aplicaciones Svelte impulsado por Vite!"
+
+#: src/lib/Counter.svelte
+msgid "The count is {0}"
+msgstr "El conteo es {0}"

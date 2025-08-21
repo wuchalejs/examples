@@ -1,5 +1,6 @@
 <script lang="ts">
   import { loadLocale } from 'wuchale/load-utils'
+  import './locales/loader.svelte.js'
   import Counter from './lib/Counter.svelte'
 
   let locale = $state('en')
@@ -11,7 +12,7 @@
   Loading translations...
 {:then}
   <main>
-    <button onclick={() => {locale = locale === 'en' ? 'es' : locale === 'es' ? 'fr' : 'en'}}>Current locale: {locale}</button>
+    <button onclick={() => {locale = locale === 'en' ? 'es' : 'en'}}>Current locale: {locale}</button>
     <h1>Vite + Svelte</h1>
   
     <div class="card">
