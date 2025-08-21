@@ -25,7 +25,7 @@
 	},
 	"dependencies": {
 		"@wuchale/svelte": "^0.13.0",
-		"@wuchale/vite-plugin": "^0.13.0",
+		"@wuchale/vite-plugin": "^0.13.1",
 		"tailwindcss": "^4.1.11",
 		"wuchale": "^0.14.0"
 	}
