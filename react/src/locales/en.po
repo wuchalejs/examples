@@ -1,20 +1,20 @@
 msgid ""
 msgstr ""
-"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-11T21:29:48.519Z\n"
+"PO-Revision-Date: 2025-08-21T18:31:55.098Z\n"
+"Last-Translator: \n"
 "Language: en\n"
-"MIME-Version: 1.0\n"
+"Language-Team: \n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2025-08-11T21:29:48.519Z\n"
-"POT-Creation-Date: 2025-08-11T21:29:48.519Z\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"MIME-Version: 1.0\n"
 
 #: src/App.tsx
 msgid "Vite + React"
 msgstr "Vite + React"
-
-#: src/App.tsx
-msgid "count is {0}"
-msgstr "count is {0}"
 
 #: src/App.tsx
 msgid "Edit <0>src/App.tsx</0> and save to test HMR"
@@ -23,3 +23,7 @@ msgstr "Edit <0>src/App.tsx</0> and save to test HMR"
 #: src/App.tsx
 msgid "Click on the Vite and React logos to learn more"
 msgstr "Click on the Vite and React logos to learn more"
+
+#: src/Counter.tsx
+msgid "The count is: {0}"
+msgstr "The count is: {0}"

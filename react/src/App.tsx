@@ -1,7 +1,9 @@
 'use client'
 import { useEffect, useState } from 'react'
 import './App.css'
+import './locales/loader.js'
 import { loadLocale } from 'wuchale/load-utils'
+import Counter from './Counter'
 
 function App() {
     const [locale, setLocale] = useState('en')
@@ -11,8 +13,6 @@ function App() {
         setLoaded(false)
         loadLocale(locale).then(() => setLoaded(true))
     }, [locale])
-
-    const [count, setCount] = useState(0)
 
     if (!loaded) {
         // @wc-ignore
@@ -24,9 +24,7 @@ function App() {
             <button onClick={() => setLocale(locale => locale === 'en' ? 'es' : 'en')}>{locale}</button>
             <h1>Vite + React</h1>
             <div className="card">
-                <button onClick={() => setCount((count) => count + 1)}>
-                    count is {count}
-                </button>
+                <Counter />
                 <p>
                     Edit <code>src/App.tsx</code> and save to test HMR
                 </p>
