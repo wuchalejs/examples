@@ -1,5 +1,7 @@
 import { createEffect, createSignal, type Component } from 'solid-js';
 import { loadLocale } from 'wuchale/load-utils'
+import './locales/loader.js' // so that the loader is registered
+import Counter from './Counter.jsx'
 
 import styles from './App.module.css';
 
@@ -12,8 +14,9 @@ const App: Component = () => {
         <div class={styles.App}>
             <header class={styles.header}>
                 <button onClick={() => setLocale(locale() === 'en' ? 'es' : 'en')}>{locale()}</button>
+                <Counter />
                 <p>
-                    Edit <code>src/App.tsx</code> and save to reload.
+                    Edit 18 <code>src/App.tsx</code> and save to reload.
                 </p>
                 <a
                     class={styles.link}

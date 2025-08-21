@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-12T10:46:29.139Z\n"
-"PO-Revision-Date: 2025-08-13T19:40:46.291Z\n"
+"PO-Revision-Date: 2025-08-21T18:31:06.125Z\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -13,9 +13,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 
 #: src/App.tsx
-msgid "Edit <0>src/App.tsx</0> and save to reload."
-msgstr "Edit <0>src/App.tsx</0> and save to reload."
-
-#: src/App.tsx
 msgid "Learn Solid"
 msgstr "Learn Solid"
+
+#: src/App.tsx
+msgid "Edit 18 <0>src/App.tsx</0> and save to reload."
+msgstr "Edit 18 <0>src/App.tsx</0> and save to reload."
+
+#: src/Counter.tsx
+msgid "The count is: {0}"
+msgstr "The count is: {0}"
