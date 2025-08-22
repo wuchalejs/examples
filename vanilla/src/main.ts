@@ -1,7 +1,7 @@
 
 import './style.css'
 import { setupCounter } from './counter.ts'
-
+import './locales/loader.ts'
 import { loadLocale } from 'wuchale/load-utils'
 
 let locale = 'en'
