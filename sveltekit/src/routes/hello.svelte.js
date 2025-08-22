@@ -1,1 +1,3 @@
-export const greet = () => 'Hello from module'
+export const greet = () => {
+    return 'Hello from module'
+}
