@@ -15,12 +15,6 @@ export default defineConfig({
                 './src/routes/[locale]/*.svelte',
                 './src/routes/[locale]/*.svelte.{js,ts}'
             ],
-            // This is to make the runtime instance get evaluated each time it is needed
-            // But you don't need this if you don't put translateable text inside <script module> or .svelte.js files
-            runtime: {
-                wrapInit: expr => `() => ${expr}`,
-                wrapExpr: expr => `${expr}()`,
-            }
         }),
         // Applies over the granular route.
         // Uses one compiled catalog per locale per each file/component
@@ -36,12 +30,6 @@ export default defineConfig({
                 }
                 return defaultGenerateLoadID(filename)
             },
-            // This is to make the runtime instance get evaluated each time it is needed
-            // But you don't need this if you don't put translateable text inside <script module> or .svelte.js files
-            runtime: {
-                wrapInit: expr => `() => ${expr}`,
-                wrapExpr: expr => `${expr}()`,
-            }
         }),
         // Applies over the granular-bundle route.
         // Each file directly imports all locale variants of its own catalog,
