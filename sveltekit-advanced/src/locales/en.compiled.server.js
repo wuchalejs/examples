@@ -1,1 +1,1 @@
-export let c = [null,"Single","Granular","Granular bundle","Server","Welcome to SvelteKit",["Visit ",[0,"svelte.dev/docs/kit"]," to read the documentation"],"This is a sub path","Get message from the server"]
+export let c = ["Hello from the server!","Single","Granular","Granular bundle","Server","Welcome to SvelteKit",["Visit ",[0,"svelte.dev/docs/kit"]," to read the documentation"],"Get message from the server","This is a sub path"]

@@ -2,6 +2,8 @@
 // You can customize it however you want, it will not be overwritten once it exists and is not empty.
 
 import { loadCatalog, loadIDs, key } from './proxy.js'
-import { loadLocales } from 'wuchale/load-utils/server'
+import { currentCatalog } from 'wuchale/load-utils/server'
 
-export default await loadLocales(key, loadIDs, loadCatalog, ['en', 'es'])
+export { loadCatalog, loadIDs, key } // for hooks.server.{js,ts}
+
+export default (/** @type {string} */ loadID) => currentCatalog(key, loadID)

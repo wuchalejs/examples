@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-18T15:04:42.624Z\n"
-"PO-Revision-Date: 2025-08-22T21:50:47.537Z\n"
+"POT-Creation-Date: 2025-08-18T15:04:42.626Z\n"
+"PO-Revision-Date: 2025-08-22T21:50:55.984Z\n"
 "Last-Translator: \n"
-"Language: en\n"
+"Language: es-es\n"
 "Language-Team: \n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,11 +14,11 @@ msgstr ""
 
 #: src/routes/[locale]/server/+page.server.ts
 msgid "Hello from the server!"
-msgstr "Hello from the server!"
+msgstr "¡Hola desde el servidor!"
 
 #: src/routes/[locale]/+layout.svelte
 msgid "Single"
-msgstr "Single"
+msgstr "Individual"
 
 #: src/routes/[locale]/+layout.svelte
 msgid "Granular"
@@ -26,24 +26,24 @@ msgstr "Granular"
 
 #: src/routes/[locale]/+layout.svelte
 msgid "Granular bundle"
-msgstr "Granular bundle"
+msgstr "Paquete granular"
 
 #: src/routes/[locale]/+layout.svelte
 msgid "Server"
-msgstr "Server"
+msgstr "Servidor"
 
 #: src/routes/[locale]/+page.svelte
 msgid "Welcome to SvelteKit"
-msgstr "Welcome to SvelteKit"
+msgstr "Bienvenido a SvelteKit"
 
 #: src/routes/[locale]/+page.svelte
 msgid "Visit <0>svelte.dev/docs/kit</0> to read the documentation"
-msgstr "Visit <0>svelte.dev/docs/kit</0> to read the documentation"
+msgstr "Visita <0>svelte.dev/docs/kit</0> para leer la documentación"
 
 #: src/routes/[locale]/server/+page.svelte
 msgid "Get message from the server"
-msgstr "Get message from the server"
+msgstr "Obtener mensaje del servidor"
 
 #: src/routes/[locale]/single/+page.svelte
 msgid "This is a sub path"
-msgstr "This is a sub path"
+msgstr "Esta es una subruta"

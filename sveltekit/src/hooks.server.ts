@@ -1,8 +1,9 @@
 import type { Handle } from '@sveltejs/kit';
 import { loadCatalog, loadIDs, key } from './locales/loader.svelte.js'
 import { runWithLocale, loadLocales } from 'wuchale/load-utils/server';
+import { locales } from 'virtual:wuchale/locales'
 
-await loadLocales(key, loadIDs, loadCatalog, ['en', 'es', 'fr'])
+await loadLocales(key, loadIDs, loadCatalog, locales)
 
 export const handle: Handle = async ({ event, resolve }) => {
     const locale = event.url.searchParams.get('locale') ?? 'en';

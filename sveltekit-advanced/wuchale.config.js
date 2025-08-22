@@ -4,7 +4,7 @@ import { adapter as svelte } from '@wuchale/svelte'
 import { adapter as vanilla } from "wuchale/adapter-vanilla"
 
 export default defineConfig({
-    otherLocales: ['es'],
+    otherLocales: ['es-es'],
     adapters: {
         // Applies over the components inside the single route as well as the top level route.
         // Uses a single compiled catalog per locale, downloaded once.
