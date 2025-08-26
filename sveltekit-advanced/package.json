@@ -27,6 +27,6 @@
 		"@wuchale/svelte": "^0.13.2",
 		"@wuchale/vite-plugin": "^0.13.1",
 		"tailwindcss": "^4.1.12",
-		"wuchale": "^0.14.1"
+		"wuchale": "^0.14.5"
 	}
 }
