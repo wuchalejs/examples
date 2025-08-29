@@ -10,11 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@wuchale/jsx": "^0.5.2",
-    "@wuchale/vite-plugin": "^0.13.2",
+    "@wuchale/jsx": "^0.6.0",
+    "@wuchale/vite-plugin": "^0.14.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "wuchale": "^0.14.6"
+    "wuchale": "^0.15.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.32.0",
