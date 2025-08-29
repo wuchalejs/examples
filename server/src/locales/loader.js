@@ -4,4 +4,5 @@
 import { loadCatalog, loadIDs } from './proxy.js' // or loader/sync
 import { loadLocales } from 'wuchale/load-utils/server'
 
-export default await loadLocales('main', loadIDs, loadCatalog, ['en', 'es', 'fr'])
+export const get = await loadLocales('main', loadIDs, loadCatalog, ['en', 'es', 'fr'])
+export default get
