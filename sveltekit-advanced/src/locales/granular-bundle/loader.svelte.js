@@ -6,4 +6,5 @@ import { page } from '$app/state'
 /**
  * @param {{ [locale: string]: import("wuchale/runtime").CatalogModule }} catalogs
 */ 
-export default catalogs => catalogs[page.data.locale ?? 'en']
+export const get = catalogs => catalogs[page.data.locale ?? 'en']
+export default get

@@ -8,14 +8,15 @@ import { registerLoaders, defaultCollection } from 'wuchale/load-utils'
 
 export { loadCatalog, loadIDs, key } // for +layout.{js,ts} and hooks.server.{js,ts}
 
-let loadC
+/** @type {Function} */
+export let get
 
 if (import.meta.env.SSR) { // stripped from production client builds
     const { currentCatalog } = await import('wuchale/load-utils/server')
-    loadC = (/** @type {string} */ loadID) => currentCatalog(key, loadID)
+    get = (/** @type {string} */ loadID) => currentCatalog(key, loadID)
 } else {
     const catalogs = $state({})
-    loadC = registerLoaders(key, loadCatalog, loadIDs, defaultCollection(catalogs))
+    get = registerLoaders(key, loadCatalog, loadIDs, defaultCollection(catalogs))
 }
 
-export default loadC
+export default get
