@@ -20,8 +20,8 @@
     "vite": "^7.1.3"
   },
   "dependencies": {
-    "@wuchale/svelte": "^0.13.5",
-    "@wuchale/vite-plugin": "^0.13.2",
-    "wuchale": "^0.14.6"
+    "@wuchale/svelte": "^0.14.0",
+    "@wuchale/vite-plugin": "^0.14.0",
+    "wuchale": "^0.15.0"
   }
 }
