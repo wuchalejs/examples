@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-24T09:27:49.926Z\n"
-"PO-Revision-Date: 2025-08-21T18:28:50.720Z\n"
+"PO-Revision-Date: 2025-08-29T13:38:17.241Z\n"
 "Last-Translator: \n"
 "Language: es\n"
 "Language-Team: \n"
@@ -31,3 +31,7 @@ msgstr "Visita <0>svelte.dev/docs/kit</0> para leer la documentación"
 #: src/routes/hello.svelte.js
 msgid "Hello from module"
 msgstr "Hola desde el módulo"
+
+#: src/routes/+layout.ts
+msgid "Hello from layout!"
+msgstr "¡Hola desde el layout!"

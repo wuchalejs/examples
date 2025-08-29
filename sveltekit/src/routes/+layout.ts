@@ -16,5 +16,6 @@ export const load: LayoutLoad = async ({url}) => {
     }
     return {
         locale,
+        layoutMsg: 'Hello from layout!',
     }
 }
