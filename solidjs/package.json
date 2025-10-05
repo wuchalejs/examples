@@ -7,6 +7,7 @@
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
+    "installLatest": "npm i wuchale@latest @wuchale/jsx@latest @wuchale/vite-plugin@latest",
     "serve": "vite preview"
   },
   "license": "MIT",
@@ -16,9 +17,9 @@
     "vite-plugin-solid": "^2.11.6"
   },
   "dependencies": {
-    "@wuchale/jsx": "^0.6.2",
-    "@wuchale/vite-plugin": "^0.14.3",
+    "@wuchale/jsx": "^0.8.1",
+    "@wuchale/vite-plugin": "^0.14.7",
     "solid-js": "^1.9.5",
-    "wuchale": "^0.15.6"
+    "wuchale": "^0.17.2"
   }
 }

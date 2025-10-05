@@ -8,6 +8,7 @@
 		"build": "vite build",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
+		"installLatest": "npm i wuchale@latest @wuchale/svelte@latest @wuchale/vite-plugin@latest",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
 	},
@@ -21,8 +22,8 @@
 		"vite": "^7.1.3"
 	},
 	"dependencies": {
-		"@wuchale/svelte": "^0.14.3",
-		"@wuchale/vite-plugin": "^0.14.4",
-		"wuchale": "^0.15.8"
+		"@wuchale/svelte": "^0.16.1",
+		"@wuchale/vite-plugin": "^0.14.7",
+		"wuchale": "^0.17.2"
 	}
 }

@@ -7,4 +7,5 @@ import * as _w_c_server_1_ from './es-es.compiled.server.js'
             export const loadIDs = ['server']
             export const key = 'server'
         
+            export const locales = ['en','es-es']
         

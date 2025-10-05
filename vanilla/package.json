@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "installLatest": "npm i wuchale@latest @wuchale/vite-plugin@latest",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -13,7 +14,7 @@
     "vite": "^7.1.5"
   },
   "dependencies": {
-    "@wuchale/vite-plugin": "^0.14.4",
-    "wuchale": "^0.15.8"
+    "@wuchale/vite-plugin": "^0.14.7",
+    "wuchale": "^0.17.2"
   }
 }

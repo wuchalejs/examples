@@ -8,4 +8,5 @@ import * as _w_c_main_2_ from './fr.compiled.main.js'
             export const loadIDs = ['main']
             export const key = 'main'
         
+            export const locales = ['en','es','fr']
         

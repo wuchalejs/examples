@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-11T21:29:50.207Z\n"
-"PO-Revision-Date: 2025-08-21T18:31:55.099Z\n"
+"PO-Revision-Date: 2025-10-05T19:01:00.655Z\n"
 "Last-Translator: \n"
 "Language: es\n"
 "Language-Team: \n"
@@ -24,6 +24,7 @@ msgstr "Edita <0>src/App.tsx</0> y guarda para probar HMR"
 msgid "Click on the Vite and React logos to learn more"
 msgstr "Haz clic en los logos de Vite y React para aprender más"
 
+#. placeholder {0}: count
 #: src/Counter.tsx
 msgid "The count is: {0}"
 msgstr "El conteo es: {0}"

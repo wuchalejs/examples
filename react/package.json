@@ -7,14 +7,15 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
+    "installLatest": "npm i wuchale@latest @wuchale/jsx@latest @wuchale/vite-plugin@latest",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@wuchale/jsx": "^0.6.2",
-    "@wuchale/vite-plugin": "^0.14.3",
+    "@wuchale/jsx": "^0.8.1",
+    "@wuchale/vite-plugin": "^0.14.7",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "wuchale": "^0.15.6"
+    "wuchale": "^0.17.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.32.0",

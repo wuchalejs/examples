@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-12T10:46:30.304Z\n"
-"PO-Revision-Date: 2025-08-21T18:31:06.125Z\n"
+"PO-Revision-Date: 2025-10-05T19:01:03.209Z\n"
 "Last-Translator: \n"
 "Language: es\n"
 "Language-Team: \n"
@@ -20,6 +20,7 @@ msgstr "Aprende Solid"
 msgid "Edit 18 <0>src/App.tsx</0> and save to reload."
 msgstr "Edita 18 <0>src/App.tsx</0> y guarda para recargar."
 
+#. placeholder {0}: count()
 #: src/Counter.tsx
 msgid "The count is: {0}"
 msgstr "El conteo es: {0}"
