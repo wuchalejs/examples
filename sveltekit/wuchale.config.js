@@ -11,6 +11,7 @@ export default defineConfig({
             files: [
                 'src/**/+{page,layout}.{js,ts}',
                 'src/**/+{page,layout}.server.{js,ts}',
+                'src/lib/**/*.{js,ts}',
             ],
         })
     }

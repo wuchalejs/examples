@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { greet } from '$lib/util.js';
     import { locales } from 'virtual:wuchale/locales';
     const { data, children} = $props()
     const displayName = (loc: string) => new Intl.DisplayNames([loc], {type: 'language'}).of(loc)
@@ -15,5 +16,7 @@
         {/each}
     </ul>
 </nav>
+
+{greet()}
 
 {@render children()}

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-24T09:27:49.927Z\n"
-"PO-Revision-Date: 2025-08-29T13:38:17.996Z\n"
+"PO-Revision-Date: 2025-10-09T16:51:25.379Z\n"
 "Last-Translator: \n"
 "Language: fr\n"
 "Language-Team: \n"
@@ -35,3 +35,7 @@ msgstr "Bonjour depuis le module"
 #: src/routes/+layout.ts
 msgid "Hello from layout!"
 msgstr "Bonjour depuis le layout !"
+
+#: src/lib/util.ts
+msgid "Hello from util function"
+msgstr "Bonjour depuis la fonction utilitaire"
