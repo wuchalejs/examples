@@ -3,4 +3,3 @@ node_modules
 dist
 rnd
 .wuchale
-*/src/locales/**/*.js
