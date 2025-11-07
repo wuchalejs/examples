@@ -1,4 +1,4 @@
-import { loadCatalog, loadIDs } from './.wuchale/main.proxy.sync.js'
+import { loadCatalog, loadIDs } from './.wuchale/main.proxy.js'
 import { registerLoaders } from 'wuchale/load-utils'
 import { useState, useEffect } from 'react'
 
