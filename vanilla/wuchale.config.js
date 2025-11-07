@@ -4,6 +4,8 @@ import { defineConfig } from 'wuchale'
 export default defineConfig({
     otherLocales: ['es'],
     adapters: {
-        main: basic()
+        main: basic({
+            loader: 'vite',
+        })
     }
 })

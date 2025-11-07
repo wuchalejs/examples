@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { locales } from 'virtual:wuchale/locales';
+    import { locales } from '../locales/data.js';
     const { data, children} = $props()
     const displayName = (loc: string) => new Intl.DisplayNames([loc], {type: 'language'}).of(loc)
 </script>

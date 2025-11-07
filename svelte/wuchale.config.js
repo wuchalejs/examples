@@ -4,6 +4,8 @@ import { adapter } from '@wuchale/svelte'
 export default defineConfig({
     otherLocales: ['es'],
     adapters: {
-        main: adapter(),
+        main: adapter({
+            loader: 'svelte',
+        }),
     }
 })

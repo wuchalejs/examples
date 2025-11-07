@@ -1,6 +1,5 @@
 import { useState } from "react"
 
-console.log('ole')
 export default function Counter() {
     const [count, setCount] = useState(0)
     return <>

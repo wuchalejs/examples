@@ -2,3 +2,5 @@ node_modules
 .svelte-kit
 dist
 rnd
+.wuchale
+*/src/locales/**/*.js

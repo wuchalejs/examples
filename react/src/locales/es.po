@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-11T21:29:50.207Z\n"
-"PO-Revision-Date: 2025-10-05T19:01:00.655Z\n"
+"PO-Revision-Date: 2025-11-06T21:22:05.295Z\n"
 "Last-Translator: \n"
 "Language: es\n"
 "Language-Team: \n"
@@ -17,10 +17,6 @@ msgid "Vite + React"
 msgstr "Vite + React"
 
 #: src/App.tsx
-msgid "Edit <0>src/App.tsx</0> and save to test HMR"
-msgstr "Edita <0>src/App.tsx</0> y guarda para probar HMR"
-
-#: src/App.tsx
 msgid "Click on the Vite and React logos to learn more"
 msgstr "Haz clic en los logos de Vite y React para aprender más"
 
@@ -28,3 +24,7 @@ msgstr "Haz clic en los logos de Vite y React para aprender más"
 #: src/Counter.tsx
 msgid "The count is: {0}"
 msgstr "El conteo es: {0}"
+
+#: src/App.tsx
+msgid "Edit <0/> and save to test HMR"
+msgstr "Edita <0/> y guarda para probar HMR"

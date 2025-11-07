@@ -6,12 +6,8 @@ export default defineConfig({
     otherLocales: ['es', 'fr'],
     adapters: {
         main: adapter({
-            writeFiles: {
-                compiled: true,
-                proxy: true,
-                transformed: true,
-                outDir: 'dist',
-            },
+            loader: 'server',
+            outDir: 'dist',
         }),
     }
 })

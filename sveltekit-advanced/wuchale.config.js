@@ -9,6 +9,7 @@ export default defineConfig({
         // Applies over the components inside the single route as well as the top level route.
         // Uses a single compiled catalog per locale, downloaded once.
         single: svelte({
+            loader: 'sveltekit',
             files: [
                 './src/routes/[locale]/{single,server}/**/*.svelte',
                 './src/routes/[locale]/single/**/*.svelte.{js,ts}',
@@ -21,8 +22,9 @@ export default defineConfig({
         //   unless they contain /group/ in which case they will share one compiled catalog.
         // Which one to download is decided at runtime
         granularLoad: svelte({
+            loader: 'sveltekit',
             files: './src/routes/[locale]/granular/**/*',
-            catalog: './src/locales/granular/{locale}',
+            localesDir: './src/locales/granular',
             granularLoad: true,
             generateLoadID: filename => {
                 if (filename.includes('grouped')) {
@@ -37,8 +39,9 @@ export default defineConfig({
         // It only takes the locale identifier string from the loader at runtime.
         // This mimicks how ParaglideJS downloads catalogs but is not recommended.
         granularLoadBundle: svelte({
+            loader: 'sveltekit',
             files: './src/routes/[locale]/granular-bundle/**/*',
-            catalog: './src/locales/granular-bundle/{locale}',
+            localesDir: './src/locales/granular-bundle',
             granularLoad: true,
             bundleLoad: true,
         }),
@@ -48,11 +51,8 @@ export default defineConfig({
         //   because node.js doesn't support virtual modules.
         // Also since node.js is not a reactive environment, we have to initialize the runtime inside functions.
         server: vanilla({
+            loader: 'server',
             files: './src/**/*.server.{js,ts}',
-            writeFiles: {
-                compiled: true,
-                proxy: true,
-            },
         }),
     },
 })

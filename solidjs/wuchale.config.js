@@ -5,7 +5,8 @@ export default defineConfig({
     otherLocales: ['es'],
     adapters: {
         main: adapter({
-            variant: "solidjs"
+            loader: "solidjs",
+            variant: "solidjs",
         })
     }
 })

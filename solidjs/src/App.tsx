@@ -1,6 +1,6 @@
 import { createEffect, createSignal, Show, type Component } from 'solid-js';
 import { loadLocale } from 'wuchale/load-utils'
-import './locales/loader.js' // so that the loader is registered
+import './locales/main.loader.js' // so that the loader is registered
 import Counter from './Counter.jsx'
 
 import styles from './App.module.css';

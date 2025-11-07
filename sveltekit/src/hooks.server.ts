@@ -1,8 +1,8 @@
 import type { Handle } from '@sveltejs/kit';
-import * as main from './locales/loader.ssr.svelte.js'
-import * as js from './locales/loader.ssr.js'
+import * as main from './locales/main.loader.server.svelte.js'
+import * as js from './locales/js.loader.server.js'
 import { runWithLocale, loadLocales } from 'wuchale/load-utils/server';
-import { locales } from 'virtual:wuchale/locales'
+import { locales } from './locales/data.js'
 
 await loadLocales(main.key, main.loadIDs, main.loadCatalog, locales)
 await loadLocales(js.key, js.loadIDs, js.loadCatalog, locales)

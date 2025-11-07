@@ -1,1 +1,0 @@
-export let c = ["Hello World!","Home"]

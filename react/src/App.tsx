@@ -1,7 +1,7 @@
 'use client'
 import { useEffect, useState } from 'react'
 import './App.css'
-import './locales/loader.js'
+import './locales/main.loader.js'
 import { loadLocale } from 'wuchale/load-utils'
 import Counter from './Counter'
 

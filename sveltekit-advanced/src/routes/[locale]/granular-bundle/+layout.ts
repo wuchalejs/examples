@@ -1,5 +1,5 @@
 import type { LayoutLoad } from './$types'
-import { locales } from 'virtual:wuchale/locales'
+import { locales } from '../../../locales/data.js'
 
 export const load: LayoutLoad = async ({params: {locale}}) => {
     if (!(locale in locales)) {
