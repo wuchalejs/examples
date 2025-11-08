@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-24T09:27:49.925Z\n"
-"PO-Revision-Date: 2025-08-29T13:36:59.270Z\n"
+"PO-Revision-Date: 2025-11-08T12:38:28.398Z\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -35,3 +35,15 @@ msgstr "Hello from module"
 #: src/routes/+layout.ts
 msgid "Hello from layout!"
 msgstr "Hello from layout!"
+
+#: src/routes/path/+layout.ts
+msgid "Hello from nested layout!"
+msgstr "Hello from nested layout!"
+
+#: src/routes/path/+page.svelte
+msgid "Load messages from page state"
+msgstr "Load messages from page state"
+
+#: src/routes/path/+page.svelte
+msgid "Load messages from props/data"
+msgstr "Load messages from props/data"
