@@ -17,9 +17,9 @@
     "vite-plugin-solid": "^2.11.6"
   },
   "dependencies": {
-    "@wuchale/jsx": "^0.9.4",
-    "@wuchale/vite-plugin": "^0.15.3",
+    "@wuchale/jsx": "^0.9.7",
+    "@wuchale/vite-plugin": "^0.15.5",
     "solid-js": "^1.9.5",
-    "wuchale": "^0.18.3"
+    "wuchale": "^0.18.8"
   }
 }

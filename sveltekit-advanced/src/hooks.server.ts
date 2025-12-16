@@ -5,8 +5,7 @@ import { runWithLocale, loadLocales } from 'wuchale/load-utils/server';
 import * as single from './locales/single.loader.server.svelte.js'
 import * as granular from './locales/granular/granularLoad.loader.server.svelte.js'
 import * as server from './locales/server.loader.js'
-
-const locales = ['en', 'es-es']
+import { locales } from './locales/data.js';
 
 await loadLocales(single.key, single.loadIDs, single.loadCatalog, locales)
 loadLocales(granular.key, granular.loadIDs, granular.loadCatalog, locales) // separate sync loader for ssr
