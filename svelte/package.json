@@ -21,7 +21,7 @@
     "vite": "^7.3.0"
   },
   "dependencies": {
-    "@wuchale/svelte": "^0.17.8",
+    "@wuchale/svelte": "^0.17.9",
     "@wuchale/vite-plugin": "^0.15.5",
     "wuchale": "^0.18.8"
   }
