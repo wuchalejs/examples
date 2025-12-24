@@ -1,0 +1,17 @@
+{
+  "name": "astro",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@wuchale/astro": "file:../../wuchale/packages/astro",
+    "@wuchale/vite-plugin": "file:../../wuchale/packages/vite-plugin",
+    "astro": "^5.16.6",
+    "wuchale": "file:../../wuchale/packages/wuchale"
+  }
+}
