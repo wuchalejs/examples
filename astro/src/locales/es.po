@@ -1,35 +1,41 @@
 msgid ""
 msgstr ""
-"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
-"Language: es\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-24T12:25:57.589Z\n"
 "PO-Revision-Date: 2025-12-24T12:25:57.589Z\n"
+"Last-Translator: \n"
+"Language: es\n"
+"Language-Team: \n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"MIME-Version: 1.0\n"
 
 #: src/components/Welcome.astro
 msgid "Astro home"
-msgstr ""
+msgstr "Inicio de Astro"
 
 #: src/components/Welcome.astro
 msgid "To get started, open the <0/> directory in your project."
-msgstr ""
+msgstr "Para empezar, abre el directorio <0/> en tu proyecto."
 
 #: src/components/Welcome.astro
 msgid "Read our docs"
-msgstr ""
+msgstr "Lee nuestra documentación"
 
 #: src/components/Welcome.astro
 msgid "Join our Discord"
-msgstr ""
+msgstr "Únete a nuestro Discord"
 
 #: src/components/Welcome.astro
 msgid "What's New in Astro 5.0?"
-msgstr ""
+msgstr "¿Qué hay de nuevo en Astro 5.0?"
 
 #: src/components/Welcome.astro
 msgid ""
 "From content layers to server islands, click to learn more about the new features and\n"
 "improvements in Astro 5.0"
 msgstr ""
+"Desde capas de contenido hasta islas de servidor, haz clic para obtener más información\n"
+"sobre las nuevas características y mejoras en Astro 5.0"
