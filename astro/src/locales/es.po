@@ -39,3 +39,8 @@ msgid ""
 msgstr ""
 "Desde capas de contenido hasta islas de servidor, haz clic para obtener más información\n"
 "sobre las nuevas características y mejoras en Astro 5.0"
+
+#. placeholder {0}: locale
+#: src/pages/[locale]/index.astro
+msgid "You're viewing the {0} page."
+msgstr "Estás viendo la página de {0}."
