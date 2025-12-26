@@ -7,5 +7,8 @@ export default defineConfig({
 		wuchale(),
 		sveltekit()
 	],
+    optimizeDeps: {
+        exclude: ['sv-lib'],
+    }
 });
 

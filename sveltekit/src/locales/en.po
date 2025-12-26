@@ -2,20 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-24T09:27:49.925Z\n"
-"PO-Revision-Date: 2025-11-08T12:38:28.398Z\n"
+"POT-Creation-Date: 2025-12-25T20:54:59.417Z\n"
+"PO-Revision-Date: 2025-12-25T20:54:59.417Z\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
-"MIME-Version: 1.0\n"
 "Source-Language: en\n"
-
-#: src/routes/path/+page.svelte
-msgid "This is a sub path"
-msgstr "This is a sub path"
+"MIME-Version: 1.0\n"
 
 #: src/routes/+page.svelte
 msgid "Go to sub"
@@ -33,13 +29,9 @@ msgstr "Visit <0>svelte.dev/docs/kit</0> to read the documentation"
 msgid "Hello from module"
 msgstr "Hello from module"
 
-#: src/routes/+layout.ts
-msgid "Hello from layout!"
-msgstr "Hello from layout!"
-
-#: src/routes/path/+layout.ts
-msgid "Hello from nested layout!"
-msgstr "Hello from nested layout!"
+#: src/routes/path/+page.svelte
+msgid "This is a sub path"
+msgstr "This is a sub path"
 
 #: src/routes/path/+page.svelte
 msgid "Load messages from page state"
@@ -48,3 +40,16 @@ msgstr "Load messages from page state"
 #: src/routes/path/+page.svelte
 msgid "Load messages from props/data"
 msgstr "Load messages from props/data"
+
+#: src/routes/+layout.ts
+msgid "Hello from layout!"
+msgstr "Hello from layout!"
+
+#: src/routes/path/+layout.ts
+msgid "Hello from nested layout!"
+msgstr "Hello from nested layout!"
+
+#: ../sv-lib/dist/Hello.svelte
+#: node_modules/sv-lib/dist/Hello.svelte
+msgid "Hello from lib component"
+msgstr "Hello from lib component"

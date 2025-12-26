@@ -1,0 +1,30 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-25T21:16:12.513Z\n"
+"PO-Revision-Date: 2025-12-25T21:16:12.513Z\n"
+"Last-Translator: \n"
+"Language: es\n"
+"Language-Team: \n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"Source-Language: en\n"
+"MIME-Version: 1.0\n"
+
+#: src/lib/Hello.svelte
+msgid "Hello from lib component"
+msgstr "Hola desde el componente de la biblioteca"
+
+#: src/routes/+page.svelte
+msgid "Welcome to your library project"
+msgstr "Bienvenido a tu proyecto de biblioteca"
+
+#: src/routes/+page.svelte
+msgid "Create your package using @sveltejs/package and preview/showcase your work with SvelteKit"
+msgstr "Crea tu paquete usando @sveltejs/package y previsualiza/muestra tu trabajo con SvelteKit"
+
+#: src/routes/+page.svelte
+msgid "Visit <0>svelte.dev/docs/kit</0> to read the documentation"
+msgstr "Visita <0>svelte.dev/docs/kit</0> para leer la documentación"

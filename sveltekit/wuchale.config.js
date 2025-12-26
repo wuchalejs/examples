@@ -15,6 +15,10 @@ export default defineConfig({
                 'src/**/+{page,layout}.{js,ts}',
                 'src/**/+{page,layout}.server.{js,ts}',
             ],
+        }),
+        lib: svelte({
+            loader: 'sveltekit',
+            files: 'node_modules/sv-lib/dist/*.svelte',
         })
     }
 })
