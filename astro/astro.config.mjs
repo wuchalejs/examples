@@ -7,7 +7,11 @@ export default defineConfig({
     vite: {
         plugins: [wuchale()],
     },
-    redirects: {
-        "/": "/en",
-    }
+    i18n: {
+        locales: ['en', 'es'],
+        defaultLocale: 'en',
+            routing: {
+            prefixDefaultLocale: true,
+        }
+    },
 });
