@@ -3,11 +3,8 @@ import { adapter as astro } from "@wuchale/astro"
 import { defineConfig } from "wuchale"
 
 export default defineConfig({
-    // sourceLocale is en by default
-    otherLocales: ['es'],
+    locales: ['en', 'es'],
     adapters: {
-        main: astro({
-            files: './src/{pages,components}/**/*.astro'
-        }),
+        main: astro(),
     }
 })

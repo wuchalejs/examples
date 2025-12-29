@@ -4,7 +4,7 @@ import { adapter as svelte } from '@wuchale/svelte'
 import { adapter as js } from 'wuchale/adapter-vanilla'
 
 export default defineConfig({
-    otherLocales: ['es', 'fr'],
+    locales: ['en', 'es', 'fr'],
     adapters: {
         main: svelte({
             loader: 'sveltekit',

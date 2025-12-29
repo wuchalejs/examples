@@ -3,7 +3,7 @@ import { defineConfig } from "wuchale"
 import { adapter } from 'wuchale/adapter-vanilla'
 
 export default defineConfig({
-    otherLocales: ['es', 'fr'],
+    locales: ['en', 'es', 'fr'],
     adapters: {
         main: adapter({
             loader: 'server',

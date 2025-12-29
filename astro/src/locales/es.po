@@ -11,6 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
 "MIME-Version: 1.0\n"
+"Source-Language: en\n"
 
 #: src/components/Welcome.astro
 msgid "Astro home"
@@ -44,3 +45,7 @@ msgstr ""
 #: src/pages/[locale]/index.astro
 msgid "You're viewing the {0} page."
 msgstr "Estás viendo la página de {0}."
+
+#: src/layouts/Layout.astro
+msgid "Astro Basics"
+msgstr "Fundamentos de Astro"
