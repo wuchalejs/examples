@@ -42,6 +42,7 @@ support.
 - Basic SvelteKit integration with locale inside query parameters `/?locale=en`
 - Supports SSR so it works even without JavaScript
 - Uses a single catalog per locale
+- Uses SCSS for styling sample
 
 ### 5. `sveltekit-advanced`
 
@@ -53,6 +54,7 @@ support.
 - Some of the adapters divide the compiled catalogs into smaller parts for granular loading
 - Supports server generated messages using the builtin adapter-vanilla
 - Ideal for production-grade apps with large or modular UIs
+- Uses Tailwind for styling sample
 
 ### 6. `solidjs`
 
