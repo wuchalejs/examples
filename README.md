@@ -66,7 +66,7 @@ support.
 
 ### 7. `astro`
 
-[![Astro example on StackBlitz](https://img.shields.io/badge/StackBlitz-Demo-blue?logo=stackblitz)](https://stackblitz.com/github/wuchalejs/examples/tree/main/astro?file=wuchale.config.js,src%2FApp.tsx) (May have problems because StackBlitz [doesn't support](https://github.com/stackblitz/webcontainer-core/issues/1169) `AsyncLocalStorage` used for SSR)
+[![Astro example on StackBlitz](https://img.shields.io/badge/StackBlitz-Demo-blue?logo=stackblitz)](https://stackblitz.com/github/wuchalejs/examples/tree/main/astro?file=wuchale.config.js) (May have problems because StackBlitz [doesn't support](https://github.com/stackblitz/webcontainer-core/issues/1169) `AsyncLocalStorage` used for SSR)
 
 - Shows how to use `wuchale` in a basic Astro app
 - Uses a single catalog per locale
