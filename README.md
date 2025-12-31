@@ -37,7 +37,7 @@ support.
 
 ### 4. `sveltekit`
 
-[![SvelteKit TS example on StackBlitz](https://img.shields.io/badge/StackBlitz-Demo-blue?logo=stackblitz)](https://stackblitz.com/github/wuchalejs/examples/tree/main/sveltekit?file=wuchale.config.js,src%2Froutes%2F+page.svelte) (May have problems because StackBlitz doesn't support `AsyncLocalStorage` used for SSR)
+[![SvelteKit TS example on StackBlitz](https://img.shields.io/badge/StackBlitz-Demo-blue?logo=stackblitz)](https://stackblitz.com/github/wuchalejs/examples/tree/main/sveltekit?file=wuchale.config.js,src%2Froutes%2F+page.svelte) (May have problems because StackBlitz [doesn't support](https://github.com/stackblitz/webcontainer-core/issues/1169) `AsyncLocalStorage` used for SSR)
 
 - Basic SvelteKit integration with locale inside query parameters `/?locale=en`
 - Supports SSR so it works even without JavaScript
@@ -46,7 +46,7 @@ support.
 
 ### 5. `sveltekit-advanced`
 
-[![Advanced SvelteKit example on StackBlitz](https://img.shields.io/badge/StackBlitz-Demo-blue?logo=stackblitz)](https://stackblitz.com/github/wuchalejs/examples/tree/main/sveltekit-advanced?file=wuchale.config.js,src%2Froutes%2F[locale]%2F%2Bpage.svelte) (May have problems because StackBlitz doesn't support `AsyncLocalStorage` used for SSR)
+[![Advanced SvelteKit example on StackBlitz](https://img.shields.io/badge/StackBlitz-Demo-blue?logo=stackblitz)](https://stackblitz.com/github/wuchalejs/examples/tree/main/sveltekit-advanced?file=wuchale.config.js,src%2Froutes%2F[locale]%2F%2Bpage.svelte) (May have problems because StackBlitz [doesn't support](https://github.com/stackblitz/webcontainer-core/issues/1169) `AsyncLocalStorage` used for SSR)
 
 - Routes directly as URL parameters like `/en`
 - Supports SSR so it works even without JavaScript
@@ -66,7 +66,7 @@ support.
 
 ### 7. `astro`
 
-[![Astro example on StackBlitz](https://img.shields.io/badge/StackBlitz-Demo-blue?logo=stackblitz)](https://stackblitz.com/github/wuchalejs/examples/tree/main/astro?file=wuchale.config.js,src%2FApp.tsx) (May have problems because StackBlitz doesn't support `AsyncLocalStorage` used for SSR)
+[![Astro example on StackBlitz](https://img.shields.io/badge/StackBlitz-Demo-blue?logo=stackblitz)](https://stackblitz.com/github/wuchalejs/examples/tree/main/astro?file=wuchale.config.js,src%2FApp.tsx) (May have problems because StackBlitz [doesn't support](https://github.com/stackblitz/webcontainer-core/issues/1169) `AsyncLocalStorage` used for SSR)
 
 - Shows how to use `wuchale` in a basic Astro app
 - Uses a single catalog per locale
