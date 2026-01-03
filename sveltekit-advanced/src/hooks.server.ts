@@ -1,13 +1,25 @@
 import type { Handle } from '@sveltejs/kit';
-import { runWithLocale, loadLocales } from 'wuchale/load-utils/server';
+import { runWithLocale, loadLocales, runtimeCtx } from 'wuchale/load-utils/server';
 
 // these loaders need SSR, need to load the loaders once at startup for the server
 import * as single from './locales/single.loader.server.svelte.js'
 import * as granular from './locales/granular/granularLoad.loader.server.svelte.js'
 import * as server from './locales/server.loader.js'
 import { locales } from './locales/data.js';
+import { isWebContainer } from '@webcontainer/env'
+import type { Runtime } from 'wuchale/runtime'
 
-await loadLocales(single.key, single.loadIDs, single.loadCatalog, locales)
+// you don't normally need this block, it is just for StackBlitz
+if (isWebContainer()) {
+    let currCatalog: ReturnType<typeof runtimeCtx.getStore>
+    runtimeCtx.getStore = () => currCatalog
+    runtimeCtx.run = (catalog: Runtime, func: Function) => {
+        currCatalog = catalog
+        return func()
+    }
+}
+
+loadLocales(single.key, single.loadIDs, single.loadCatalog, locales)
 loadLocales(granular.key, granular.loadIDs, granular.loadCatalog, locales) // separate sync loader for ssr
 loadLocales(server.key, server.loadIDs, server.loadCatalog, locales) // sync loader directly exported
 
