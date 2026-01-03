@@ -1,5 +1,5 @@
-import { loadCatalog, loadIDs } from './.wuchale/single.proxy.sync.js'
 import { currentRuntime } from 'wuchale/load-utils/server'
+import { loadCatalog, loadIDs } from './.wuchale/single.proxy.sync.js'
 
 const key = 'single'
 

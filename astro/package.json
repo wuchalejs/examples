@@ -10,9 +10,9 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@wuchale/astro": "^0.2.0",
+    "@wuchale/astro": "^0.2.2",
     "@wuchale/vite-plugin": "^0.16.1",
     "astro": "^5.16.6",
-    "wuchale": "^0.19.0"
+    "wuchale": "^0.19.1"
   }
 }
