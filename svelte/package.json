@@ -18,7 +18,7 @@
     "svelte": "^5.34.7",
     "svelte-check": "^4.3.5",
     "typescript": "~5.9.3",
-    "vite": "^7.3.0"
+    "vite": "^7.3.1"
   },
   "dependencies": {
     "@wuchale/svelte": "^0.18.1",
