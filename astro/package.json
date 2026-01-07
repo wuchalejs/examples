@@ -11,9 +11,9 @@
   },
   "dependencies": {
     "@webcontainer/env": "^1.1.1",
-    "@wuchale/astro": "^0.2.2",
+    "@wuchale/astro": "^0.2.4",
     "@wuchale/vite-plugin": "^0.16.2",
     "astro": "^5.16.6",
-    "wuchale": "^0.19.1"
+    "wuchale": "^0.19.2"
   }
 }

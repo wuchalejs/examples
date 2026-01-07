@@ -49,7 +49,6 @@ msgstr "Charger les messages depuis l'état de la page"
 msgid "Load messages from props/data"
 msgstr "Charger les messages depuis les props/données"
 
-#: ../sv-lib/dist/Hello.svelte
 #: node_modules/sv-lib/dist/Hello.svelte
 msgid "Hello from lib component"
 msgstr "Bonjour depuis le composant de la bibliothèque"

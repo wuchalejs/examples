@@ -15,7 +15,7 @@
     "@wuchale/vite-plugin": "^0.16.2",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "wuchale": "^0.19.1"
+    "wuchale": "^0.19.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.32.0",
