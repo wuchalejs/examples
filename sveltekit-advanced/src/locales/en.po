@@ -48,3 +48,9 @@ msgstr "Get message from the server"
 #: src/routes/[locale]/single/+page.svelte
 msgid "This is a sub path"
 msgstr "This is a sub path"
+
+#: src/routes/[locale]/+page.svelte
+msgid "There is one item"
+msgid_plural "There are # items (to test plurals)"
+msgstr[0] "There is one item"
+msgstr[1] "There are # items (to test plurals)"
