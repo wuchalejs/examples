@@ -21,7 +21,7 @@ msgstr "Vite + Svelte"
 msgid "Click on the Vite and Svelte logos to learn more"
 msgstr "Click on the Vite and Svelte logos to learn more"
 
-#. placeholder {0}: locale
+#. 0: locale
 #: src/App.svelte
 msgid "Current locale: {0}"
 msgstr "Current locale: {0}"
@@ -30,7 +30,7 @@ msgstr "Current locale: {0}"
 msgid "Check out <0>SvelteKit</0>, the official Svelte app framework powered by Vite!"
 msgstr "Check out <0>SvelteKit</0>, the official Svelte app framework powered by Vite!"
 
-#. placeholder {0}: count
+#. 0: count
 #: src/lib/Counter.svelte
 msgid "The count is {0}"
 msgstr "The count is {0}"

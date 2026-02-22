@@ -8,6 +8,7 @@ import * as server from './locales/server.loader.js'
 import { locales } from './locales/data.js';
 import { isWebContainer } from '@webcontainer/env'
 import type { Runtime } from 'wuchale/runtime'
+import { getLocale } from './locales/single.url.js';
 
 // you don't normally need this block, it is just for StackBlitz
 if (isWebContainer()) {
@@ -24,10 +25,7 @@ loadLocales(granular.key, granular.loadIDs, granular.loadCatalog, locales) // se
 loadLocales(server.key, server.loadIDs, server.loadCatalog, locales) // sync loader directly exported
 
 export const handle: Handle = async ({ event, resolve }) => {
-    let locale = event.params.locale ?? 'en';
-    if (!locales.includes(locale)) {
-        locale = 'en'
-    }
+    let locale = getLocale(event.url)
     return await runWithLocale(locale, () =>
         resolve(event, {
             transformPageChunk: ({ html }) => html.replace('%sveltekit.lang%', locale)

@@ -13,43 +13,43 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Source-Language: en\n"
 
-#: src/routes/[locale]/server/+page.server.ts
+#: src/routes/server/+page.server.ts
 msgid "Hello from the server!"
 msgstr "¡Hola desde el servidor!"
 
-#: src/routes/[locale]/+layout.svelte
+#: src/routes/+layout.svelte
 msgid "Single"
 msgstr "Individual"
 
-#: src/routes/[locale]/+layout.svelte
+#: src/routes/+layout.svelte
 msgid "Granular"
 msgstr "Granular"
 
-#: src/routes/[locale]/+layout.svelte
+#: src/routes/+layout.svelte
 msgid "Granular bundle"
 msgstr "Paquete granular"
 
-#: src/routes/[locale]/+layout.svelte
+#: src/routes/+layout.svelte
 msgid "Server"
 msgstr "Servidor"
 
-#: src/routes/[locale]/+page.svelte
+#: src/routes/+page.svelte
 msgid "Welcome to SvelteKit"
 msgstr "Bienvenido a SvelteKit"
 
-#: src/routes/[locale]/+page.svelte
+#: src/routes/+page.svelte
 msgid "Visit <0>svelte.dev/docs/kit</0> to read the documentation"
 msgstr "Visita <0>svelte.dev/docs/kit</0> para leer la documentación"
 
-#: src/routes/[locale]/server/+page.svelte
+#: src/routes/server/+page.svelte
 msgid "Get message from the server"
 msgstr "Obtener mensaje del servidor"
 
-#: src/routes/[locale]/single/+page.svelte
+#: src/routes/single/+page.svelte
 msgid "This is a sub path"
 msgstr "Esta es una subruta"
 
-#: src/routes/[locale]/+page.svelte
+#: src/routes/+page.svelte
 msgid "There is one item"
 msgid_plural "There are # items (to test plurals)"
 msgstr[0] "Hay un artículo"

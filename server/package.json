@@ -13,8 +13,8 @@
     "license": "ISC",
     "description": "",
     "dependencies": {
-        "@wuchale/vite-plugin": "^0.16.3",
+        "@wuchale/vite-plugin": "^0.17.0",
         "express": "^5.1.0",
-        "wuchale": "^0.19.4"
+        "wuchale": "^0.20.0"
     }
 }

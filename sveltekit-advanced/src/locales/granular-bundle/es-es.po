@@ -13,10 +13,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Source-Language: en\n"
 
-#: src/routes/[locale]/granular-bundle/comp1.svelte
+#: src/routes/granular-bundle/comp1.svelte
 msgid "This is component one."
 msgstr "Este es el componente uno."
 
-#: src/routes/[locale]/granular-bundle/comp2.svelte
+#: src/routes/granular-bundle/comp2.svelte
 msgid "This is component two"
 msgstr "Este es el componente dos"

@@ -3,6 +3,18 @@ import { defineConfig, defaultGenerateLoadID } from "wuchale"
 import { adapter as svelte } from '@wuchale/svelte'
 import { adapter as vanilla } from "wuchale/adapter-vanilla"
 
+const urlConf = {
+    localize: true,
+    patterns: [
+        '/',
+        '/single',
+        '/granular',
+        '/granular-bundle',
+        '/server',
+        '/*rest'
+    ]
+}
+
 export default defineConfig({
     locales: ['en', 'es-es'],
     adapters: {
@@ -10,11 +22,12 @@ export default defineConfig({
         // Uses a single compiled catalog per locale, downloaded once.
         single: svelte({
             loader: 'sveltekit',
+            url: urlConf,
             files: [
-                './src/routes/[locale]/{single,server}/**/*.svelte',
-                './src/routes/[locale]/single/**/*.svelte.{js,ts}',
-                './src/routes/[locale]/*.svelte',
-                './src/routes/[locale]/*.svelte.{js,ts}'
+                './src/routes/{single,server}/**/*.svelte',
+                './src/routes/single/**/*.svelte.{js,ts}',
+                './src/routes/*.svelte',
+                './src/routes/*.svelte.{js,ts}'
             ],
         }),
         // Applies over the granular route.
@@ -23,7 +36,8 @@ export default defineConfig({
         // Which one to download is decided at runtime
         granularLoad: svelte({
             loader: 'sveltekit',
-            files: './src/routes/[locale]/granular/**/*',
+            files: './src/routes/granular/**/*',
+            url: urlConf,
             localesDir: './src/locales/granular',
             granularLoad: true,
             generateLoadID: filename => {
@@ -40,7 +54,8 @@ export default defineConfig({
         // This mimicks how ParaglideJS downloads catalogs but is not recommended.
         granularLoadBundle: svelte({
             loader: 'sveltekit',
-            files: './src/routes/[locale]/granular-bundle/**/*',
+            files: './src/routes/granular-bundle/**/*',
+            url: urlConf,
             localesDir: './src/locales/granular-bundle',
             granularLoad: true,
             bundleLoad: true,

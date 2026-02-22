@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-18T15:04:42.624Z\n"
+"PO-Revision-Date: 2025-08-22T21:50:47.537Z\n"
+"Last-Translator: \n"
+"Language: en\n"
+"Language-Team: \n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"MIME-Version: 1.0\n"
+"Source-Language: en\n"
+
+#: src/routes/server/+page.svelte
+#: src/routes/single/+page.svelte
+#, url:single
+msgid "/"
+msgstr "/"
+
+#, url:single
+msgctxt "original: /*rest"
+msgid "/{0}"
+msgstr "/{0}"
+
+#: src/routes/+layout.svelte
+#, url:single
+msgid "/single"
+msgstr "/single"
+
+#: src/routes/+layout.svelte
+#, url:single
+msgid "/granular"
+msgstr "/granular"
+
+#: src/routes/+layout.svelte
+#, url:single
+msgid "/granular-bundle"
+msgstr "/granular-bundle"
+
+#: src/routes/+layout.svelte
+#, url:single
+msgid "/server"
+msgstr "/server"

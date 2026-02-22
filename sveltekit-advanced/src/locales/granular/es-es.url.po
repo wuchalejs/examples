@@ -1,0 +1,40 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-24T15:26:53.112Z\n"
+"PO-Revision-Date: 2025-08-21T18:27:00.699Z\n"
+"Last-Translator: \n"
+"Language: es-es\n"
+"Language-Team: \n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"MIME-Version: 1.0\n"
+"Source-Language: en\n"
+
+#: src/routes/granular/+page.svelte
+#, url:granularLoad
+msgid "/"
+msgstr "/"
+
+#, url:granularLoad
+msgctxt "original: /*rest"
+msgid "/{0}"
+msgstr "/{0}"
+
+#, url:granularLoad
+msgid "/single"
+msgstr "/individual"
+
+#, url:granularLoad
+msgid "/granular"
+msgstr "/granular"
+
+#, url:granularLoad
+msgid "/granular-bundle"
+msgstr "/paquete-granular"
+
+#, url:granularLoad
+msgid "/server"
+msgstr "/servidor"

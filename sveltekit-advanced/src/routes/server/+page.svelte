@@ -1,5 +1,4 @@
 <script>
-    import { page } from "$app/state";
 	const { form } = $props();
     $effect(() => {
         if (form) {
@@ -8,7 +7,7 @@
     })
 </script>
 
-<div class="m-3 text-blue-600"><a href="/{page.data.locale}">&lt;=</a></div>
+<div class="m-3 text-blue-600"><a href="/" data-sveltekit-preload-data="off">&lt;=</a></div>
 
 <form method={/* @wc-ignore */ 'POST'}>
     <button class="p-1 me-2 text-sm border rounded-lg">
