@@ -29,7 +29,7 @@
 		"@webcontainer/env": "^1.1.1",
 		"@wuchale/svelte": "^0.19.0",
 		"@wuchale/vite-plugin": "^0.17.1",
-		"tailwindcss": "^4.1.12",
+		"tailwindcss": "^4.2.1",
 		"wuchale": "^0.21.0"
 	}
 }
