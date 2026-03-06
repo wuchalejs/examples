@@ -3,7 +3,7 @@ import { runWithLocale, loadLocales, runtimeCtx } from 'wuchale/load-utils/serve
 
 // these loaders need SSR, need to load the loaders once at startup for the server
 import * as single from './locales/single.loader.server.svelte.js'
-import * as granular from './locales/granular/granularLoad.loader.server.svelte.js'
+import * as granular from './locales/granularLoad.loader.server.svelte.js'
 import * as server from './locales/server.loader.js'
 import { locales } from './locales/data.js';
 import { isWebContainer } from '@webcontainer/env'

@@ -1,5 +1,5 @@
 // @ts-check
-import { defineConfig, defaultGenerateLoadID } from "wuchale"
+import { defineConfig, defaultGenerateLoadID, pofile } from "wuchale"
 import { adapter as svelte } from '@wuchale/svelte'
 import { adapter as vanilla } from "wuchale/adapter-vanilla"
 
@@ -23,6 +23,7 @@ export default defineConfig({
         single: svelte({
             loader: 'sveltekit',
             url: urlConf,
+            storage: pofile({dir: './src/locales/single'}),
             files: [
                 './src/routes/{single,server}/**/*.svelte',
                 './src/routes/single/**/*.svelte.{js,ts}',
@@ -38,7 +39,7 @@ export default defineConfig({
             loader: 'sveltekit',
             files: './src/routes/granular/**/*',
             url: urlConf,
-            localesDir: './src/locales/granular',
+            storage: pofile({dir: './src/locales/granular'}),
             granularLoad: true,
             generateLoadID: filename => {
                 if (filename.includes('grouped')) {
@@ -56,7 +57,7 @@ export default defineConfig({
             loader: 'sveltekit',
             files: './src/routes/granular-bundle/**/*',
             url: urlConf,
-            localesDir: './src/locales/granular-bundle',
+            storage: pofile({dir: './src/locales/granular-bundle'}),
             granularLoad: true,
             bundleLoad: true,
         }),
@@ -67,6 +68,7 @@ export default defineConfig({
         // Also since node.js is not a reactive environment, we have to initialize the runtime inside functions.
         server: vanilla({
             loader: 'server',
+            storage: pofile({dir: './src/locales/single'}),
             files: './src/**/*.server.{js,ts}',
         }),
     },

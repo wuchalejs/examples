@@ -1,10 +1,10 @@
 import type {Reroute} from '@sveltejs/kit'
 import {matchUrl} from './locales/single.url.js'
+import { deLocalizeDefault } from 'wuchale/url'
+import { locales } from './locales/data.js'
 
 export const reroute: Reroute = ({url}) => {
-    const {path} = matchUrl(url)
-    if (path == null) {
-        return url.pathname
-    }
-    return path
+    const [upath, locale] = deLocalizeDefault(url.pathname, locales)
+    const {path} = matchUrl(upath, locale)
+    return path ?? url.pathname
 }

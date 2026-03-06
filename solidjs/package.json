@@ -8,6 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "installLatest": "npm i wuchale@latest @wuchale/jsx@latest @wuchale/vite-plugin@latest",
+    "installLocal": "npm i ../../wuchale/packages/wuchale ../../wuchale/packages/jsx ../../wuchale/packages/vite-plugin",
     "serve": "vite preview"
   },
   "license": "MIT",
@@ -17,9 +18,9 @@
     "vite-plugin-solid": "^2.11.6"
   },
   "dependencies": {
-    "@wuchale/jsx": "^0.10.2",
-    "@wuchale/vite-plugin": "^0.17.0",
+    "@wuchale/jsx": "^0.11.0",
+    "@wuchale/vite-plugin": "^0.17.1",
     "solid-js": "^1.9.5",
-    "wuchale": "^0.20.0"
+    "wuchale": "^0.21.0"
   }
 }

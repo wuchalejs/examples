@@ -1,2 +1,2 @@
-*src/locales/*/*.js
-!*src/locales/*/loader.*
+*src/locales/*.js
+!*src/locales/loader.*

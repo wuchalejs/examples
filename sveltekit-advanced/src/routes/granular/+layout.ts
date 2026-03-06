@@ -2,8 +2,8 @@ import type { LayoutLoad } from './$types'
 import { browser } from '$app/environment'
 import { loadLocale } from 'wuchale/load-utils'
 // so that the loaders are registered before render
-import '../../locales/granular/granularLoad.loader.svelte.js'
-import { getLocale } from '../../locales/granular/granularLoad.url'
+import '../../locales/granularLoad.loader.svelte.js'
+import { getLocale } from '../../locales/granularLoad.url'
 
 export const prerender = true
 

@@ -6,15 +6,15 @@
     "scripts": {
         "extract": "wuchale",
         "serve": "wuchale && node dist/src/index.js",
-        "installLatest": "npm i wuchale@latest @wuchale/vite-plugin@latest",
+        "installLatest": "npm i wuchale@latest",
+        "installLocal": "npm i ../../wuchale/packages/wuchale",
         "build": "wuchale"
     },
     "author": "",
     "license": "ISC",
     "description": "",
     "dependencies": {
-        "@wuchale/vite-plugin": "^0.17.0",
         "express": "^5.1.0",
-        "wuchale": "^0.20.0"
+        "wuchale": "^0.21.0"
     }
 }
