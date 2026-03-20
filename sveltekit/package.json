@@ -8,8 +8,8 @@
 		"build": "vite build",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
-		"installLatest": "npm i wuchale@latest @wuchale/svelte@latest @wuchale/vite-plugin@latest",
-		"installLocal": "npm i ../../wuchale/packages/wuchale ../../wuchale/packages/svelte ../../wuchale/packages/vite-plugin",
+		"installLatest": "npm i wuchale@latest @wuchale/svelte@latest",
+		"installLocal": "npm i ../../wuchale/packages/wuchale ../../wuchale/packages/svelte",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
 	},
@@ -26,9 +26,8 @@
 	},
 	"dependencies": {
 		"@webcontainer/env": "^1.1.1",
-		"@wuchale/svelte": "^0.19.0",
-		"@wuchale/vite-plugin": "^0.17.1",
+		"@wuchale/svelte": "^0.19.2",
 		"sv-lib": "file:sv-lib-0.0.1.tgz",
-		"wuchale": "^0.21.0"
+		"wuchale": "^0.22.0"
 	}
 }

@@ -1,4 +1,4 @@
-import { wuchale } from '@wuchale/vite-plugin'
+import { wuchale } from 'wuchale/vite'
 
 export default {
     plugins: [wuchale()]

@@ -1,6 +1,6 @@
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
-import { wuchale } from '@wuchale/vite-plugin';
+import { wuchale } from 'wuchale/vite';
 
 export default defineConfig({
 	plugins: [

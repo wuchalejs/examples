@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 import { svelte } from '@sveltejs/vite-plugin-svelte'
-import { wuchale } from '@wuchale/vite-plugin'
+import { wuchale } from 'wuchale/vite'
 
 // https://vite.dev/config/
 export default defineConfig({

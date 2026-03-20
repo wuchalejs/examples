@@ -1,5 +1,5 @@
 // @ts-check
-import { wuchale } from '@wuchale/vite-plugin';
+import { wuchale } from 'wuchale/vite';
 import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
