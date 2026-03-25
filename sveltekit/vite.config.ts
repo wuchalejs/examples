@@ -7,6 +7,11 @@ export default defineConfig({
 		wuchale(),
 		sveltekit()
 	],
+    server: {
+        fs: {
+            allow: ['locales']
+        }
+    },
     optimizeDeps: {
         exclude: ['sv-lib'],
     }

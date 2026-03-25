@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { locales } from '../locales/data.js';
+    import { locales } from '../../locales/data.js';
     import {Hello} from 'sv-lib'
 
     const { data, children} = $props()

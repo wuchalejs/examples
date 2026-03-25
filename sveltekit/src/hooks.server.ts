@@ -1,9 +1,9 @@
 import type { Handle } from '@sveltejs/kit';
-import * as main from './locales/main.loader.server.svelte.js'
-import * as js from './locales/js.loader.server.js'
-import * as lib from './locales/lib.loader.server.svelte.js'
+import * as main from '../locales/main.loader.server.svelte.js'
+import * as js from '../locales/js.loader.server.js'
+import * as lib from '../locales/lib.loader.server.svelte.js'
 import { runWithLocale, loadLocales, runtimeCtx } from 'wuchale/load-utils/server';
-import { locales } from './locales/data.js'
+import { locales } from '../locales/data.js'
 import { isWebContainer } from '@webcontainer/env'
 import type { Runtime } from 'wuchale/runtime'
 
