@@ -21,9 +21,9 @@ jobs:
         example: [react, svelte, sveltekit, sveltekit-advanced, solidjs, astro, vanilla, server]
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
     - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v6
       with:
         node-version: ${{ matrix.node-version }}
         cache-dependency-path: ${{ matrix.example }}/package-lock.json
