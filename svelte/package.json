@@ -24,6 +24,6 @@
   "dependencies": {
     "@sveltejs/adapter-auto": "^7.0.1",
     "@wuchale/svelte": "^0.19.3",
-    "wuchale": "^0.22.5"
+    "wuchale": "^0.22.9"
   }
 }
