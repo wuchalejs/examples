@@ -14,6 +14,6 @@
     "@webcontainer/env": "^1.1.1",
     "@wuchale/astro": "^0.3.1",
     "astro": "^5.16.6",
-    "wuchale": "^0.22.5"
+    "wuchale": "^0.22.11"
   }
 }

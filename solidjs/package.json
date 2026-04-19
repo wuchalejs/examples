@@ -20,6 +20,6 @@
   "dependencies": {
     "@wuchale/jsx": "^0.11.2",
     "solid-js": "^1.9.5",
-    "wuchale": "^0.22.5"
+    "wuchale": "^0.22.11"
   }
 }
