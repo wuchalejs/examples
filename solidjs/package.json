@@ -9,13 +9,14 @@
     "build": "vite build",
     "installLatest": "npm i wuchale@latest @wuchale/jsx@latest",
     "installLocal": "npm i ../../wuchale/packages/wuchale ../../wuchale/packages/jsx",
+    "check": "tsc --noEmit",
     "serve": "vite preview"
   },
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^5.7.2",
-    "vite": "^6.0.0",
-    "vite-plugin-solid": "^2.11.6"
+    "typescript": "^6.0.3",
+    "vite": "^8.0.9",
+    "vite-plugin-solid": "^2.11.12"
   },
   "dependencies": {
     "@wuchale/jsx": "^0.11.2",

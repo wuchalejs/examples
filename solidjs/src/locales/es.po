@@ -1,23 +1,17 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-12T10:46:30.304Z\n"
-"PO-Revision-Date: 2025-11-07T09:17:31.937Z\n"
-"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"Source-Language: en\n"
 "Language: es\n"
-"Language-Team: \n"
+"MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
-"MIME-Version: 1.0\n"
-"Source-Language: en\n"
 
 #: src/App.tsx
 msgid "Learn Solid"
 msgstr "Aprende Solid"
 
-#. placeholder {0}: count()
+#. 0: count()
 #: src/Counter.tsx
 msgid "The count is: {0}"
 msgstr "El conteo es: {0}"

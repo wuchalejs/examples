@@ -6,6 +6,7 @@
     "dev": "astro dev",
     "installLatest": "npm i wuchale@latest @wuchale/astro@latest",
     "installLocal": "npm i ../../wuchale/packages/wuchale ../../wuchale/packages/astro",
+    "check": "tsc --noEmit",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
@@ -13,7 +14,10 @@
   "dependencies": {
     "@webcontainer/env": "^1.1.1",
     "@wuchale/astro": "^0.3.1",
-    "astro": "^5.16.6",
+    "astro": "^6.1.8",
     "wuchale": "^0.22.11"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
   }
 }

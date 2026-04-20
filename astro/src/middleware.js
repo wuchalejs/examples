@@ -16,7 +16,7 @@ if (isWebContainer()) {
 // load at server startup
 loadLocales(main.key, main.loadIDs, main.loadCatalog, locales)
 
-export function onRequest (context, next) {
+export function onRequest(context, next) {
     const locale = context.params.locale ?? 'en'
     return runWithLocale(locale, next);
 };
