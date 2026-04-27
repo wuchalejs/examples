@@ -3,7 +3,7 @@ import { loadCatalog, loadIDs } from './.wuchale/single.proxy.sync.js'
 
 const key = 'single'
 
-export { loadCatalog, loadIDs, key } // for hooks.server.{js,ts}
+export { key, loadCatalog, loadIDs } // for hooks.server.{js,ts}
 
 // for non-reactive
 export const getRuntime = (/** @type {string} */ loadID) => currentRuntime(key, loadID)

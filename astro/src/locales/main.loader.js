@@ -6,7 +6,7 @@ import { loadCatalog, loadIDs } from './.wuchale/main.proxy.sync.js'
 
 const key = 'main'
 
-export { loadCatalog, loadIDs, key }
+export { key, loadCatalog, loadIDs }
 
 // For non-reactive server-side rendering
 export const getRuntime = (/** @type {string} */ loadID) => currentRuntime(key, loadID)

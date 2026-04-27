@@ -37,7 +37,7 @@ export default defineConfig({
         // Which one to download is decided at runtime
         granularLoad: svelte({
             loader: 'sveltekit',
-            files: './src/routes/granular/**/*',
+            files: './src/routes/granular/**/*.svelte',
             url: urlConf,
             storage: pofile({dir: './src/locales/granular'}),
             granularLoad: true,
@@ -55,7 +55,7 @@ export default defineConfig({
         // This mimicks how ParaglideJS downloads catalogs but is not recommended.
         granularLoadBundle: svelte({
             loader: 'sveltekit',
-            files: './src/routes/granular-bundle/**/*',
+            files: './src/routes/granular-bundle/**/*.svelte',
             url: urlConf,
             storage: pofile({dir: './src/locales/granular-bundle'}),
             granularLoad: true,

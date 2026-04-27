@@ -7,7 +7,7 @@
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
-    "installLatest": "npm i wuchale@latest @wuchale/jsx@latest",
+    "installLatest": "npm i --prefer-online wuchale@latest @wuchale/jsx@latest",
     "installLocal": "npm i ../../wuchale/packages/wuchale ../../wuchale/packages/jsx",
     "check": "tsc --noEmit",
     "serve": "vite preview"
@@ -19,8 +19,8 @@
     "vite-plugin-solid": "^2.11.12"
   },
   "dependencies": {
-    "@wuchale/jsx": "^0.11.2",
+    "@wuchale/jsx": "^0.11.3",
     "solid-js": "^1.9.5",
-    "wuchale": "^0.22.11"
+    "wuchale": "^0.23.2"
   }
 }

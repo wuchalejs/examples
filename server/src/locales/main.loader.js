@@ -2,7 +2,7 @@ import { loadLocales } from 'wuchale/load-utils/server'
 import { locales } from './data.js'
 import { loadCatalog, loadIDs } from './.wuchale/main.proxy.sync.js'
 
-export { loadIDs, loadCatalog }
+export { loadCatalog, loadIDs }
 export const key = 'main'
 
 // two exports

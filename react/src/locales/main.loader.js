@@ -5,10 +5,12 @@ import { loadCatalog, loadIDs } from './.wuchale/main.proxy.js'
 export const key = 'main'
 /** @type {{[loadID: string]: Set<Function>}} */
 const callbacks = {}
+/** @type {{[loadID: string]: import('wuchale/runtime').Runtime}} */
 const store = {}
 
 // non-reactive
-export const getRuntime = (/** @type {string} */ loadID) => store[loadID]
+export const getRuntime = (/** @type {string} */ loadID) =>
+    /** @type {import('wuchale/runtime').Runtime} */ (store[loadID])
 
 const collection = {
     get: getRuntime,
@@ -29,7 +31,7 @@ export const getRuntimeRx = (/** @type {string} */ loadID) => {
         const cb = (/** @type {import('wuchale/runtime').Runtime} */ runtime) => setRuntime(() => runtime)
         callbacks[loadID] ??= new Set()
         callbacks[loadID].add(cb)
-        return () => callbacks[loadID].delete(cb)
+        return () => /** @type {Set<Function>} */ (callbacks[loadID]).delete(cb)
     }, [loadID])
     return runtime
 }
