@@ -28,7 +28,7 @@
 	"dependencies": {
 		"@webcontainer/env": "^1.1.1",
 		"@wuchale/svelte": "^0.19.4",
-		"tailwindcss": "^4.1.12",
+		"tailwindcss": "^4.2.4",
 		"wuchale": "^0.23.2"
 	}
 }
