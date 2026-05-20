@@ -13,9 +13,9 @@
   },
   "dependencies": {
     "@webcontainer/env": "^1.1.1",
-    "@wuchale/astro": "^0.3.2",
+    "@wuchale/astro": "^0.3.4",
     "astro": "^6.1.8",
-    "wuchale": "^0.23.2"
+    "wuchale": "^0.23.4"
   },
   "devDependencies": {
     "typescript": "^6.0.3"

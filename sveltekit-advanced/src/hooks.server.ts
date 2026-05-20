@@ -7,15 +7,14 @@ import * as granular from './locales/granularLoad.loader.server.svelte.js'
 import * as server from './locales/server.loader.js'
 import { locales } from './locales/data.js';
 import { isWebContainer } from '@webcontainer/env'
-import type { Runtime } from 'wuchale/runtime'
 import { getLocale } from './locales/single.url.js';
 
 // you don't normally need this block, it is just for StackBlitz
 if (isWebContainer()) {
     let currCatalog: ReturnType<typeof runtimeCtx.getStore>
     runtimeCtx.getStore = () => currCatalog
-    runtimeCtx.run = (catalog: Runtime, func: Function) => {
-        currCatalog = catalog
+    runtimeCtx.run = (store: typeof currCatalog, func: Function) => {
+        currCatalog = store
         return func()
     }
 }
