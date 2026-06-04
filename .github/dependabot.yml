@@ -6,22 +6,19 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
-    directory: "/svelte"
+    directories:
+      - "/svelte"
+      - "/sveltekit"
+      - "/sveltekit-advanced"
+      - "/vanilla"
+      - "/react"
+      - "/solidjs"
+      - "/astro"
+      - "/server"
     schedule:
       interval: "weekly"
-  - package-ecosystem: "npm"
-    directory: "/sveltekit"
-    schedule:
-      interval: "weekly"
-  - package-ecosystem: "npm"
-    directory: "/sveltekit-advanced"
-    schedule:
-      interval: "weekly"
-  - package-ecosystem: "npm"
-    directory: "/vanilla"
-    schedule:
-      interval: "weekly"
-  - package-ecosystem: "npm"
-    directory: "/server"
-    schedule:
-      interval: "weekly"
+    groups:
+      minor-and-patch:
+        update-types:
+          - "patch"
+          - "minor"
