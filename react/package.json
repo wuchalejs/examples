@@ -14,16 +14,16 @@
   "dependencies": {
     "@wuchale/jsx": "^0.11.3",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1",
+    "react-dom": "^19.2.7",
     "wuchale": "^0.23.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.32.0",
     "@types/react": "^19.1.9",
-    "@types/react-dom": "^19.1.7",
-    "@vitejs/plugin-react": "^6.0.1",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.2",
     "globals": "^16.3.0",
     "typescript": "^6.0.3",
-    "vite": "^8.0.9"
+    "vite": "^8.0.16"
   }
 }
