@@ -22,3 +22,28 @@ msgstr "El primero del grupo"
 #: src/routes/granular/grouped2.svelte
 msgid "Second one in the group"
 msgstr "Segundo en el grupo"
+
+#: src/routes/granular/+page.svelte
+#, url:granularLoad
+msgid "/"
+msgstr "/"
+
+#, url:granularLoad
+msgid "/single"
+msgstr "/individual"
+
+#, url:granularLoad
+msgid "/granular"
+msgstr "/granular"
+
+#, url:granularLoad
+msgid "/granular-bundle"
+msgstr "/paquete-granular"
+
+#, url:granularLoad
+msgid "/server"
+msgstr "/servidor"
+
+#, url:granularLoad
+msgid "/**"
+msgstr "/**"

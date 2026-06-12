@@ -15,11 +15,11 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^7.0.1",
-		"@sveltejs/kit": "^2.64.0",
+		"@sveltejs/kit": "^2.65.0",
 		"@sveltejs/vite-plugin-svelte": "^7.1.2",
 		"@types/node": "^25.9.2",
 		"embedded": "^1.1.0",
-		"sass": "^1.100.0",
+		"sass": "^1.101.0",
 		"svelte": "^5.56.3",
 		"svelte-check": "^4.6.0",
 		"typescript": "^6.0.3",
@@ -27,8 +27,8 @@
 	},
 	"dependencies": {
 		"@webcontainer/env": "^1.1.1",
-		"@wuchale/svelte": "^0.19.4",
-		"sv-lib": "file:sv-lib-0.0.1.tgz",
-		"wuchale": "^0.23.4"
+		"@wuchale/svelte": "^0.20.0",
+		"sv-lib": "file:sv-lib/sv-lib-0.0.1.tgz",
+		"wuchale": "^0.24.0"
 	}
 }

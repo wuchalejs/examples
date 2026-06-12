@@ -19,9 +19,9 @@ if (isWebContainer()) {
     }
 }
 
-loadLocales(single.key, single.loadIDs, single.loadCatalog, locales)
-loadLocales(granular.key, granular.loadIDs, granular.loadCatalog, locales) // separate sync loader for ssr
-loadLocales(server.key, server.loadIDs, server.loadCatalog, locales) // sync loader directly exported
+loadLocales(single.key, single.loadCount, single.loadCatalog, locales)
+loadLocales(granular.key, granular.loadCount, granular.loadCatalog, locales) // separate sync loader for ssr
+loadLocales(server.key, server.loadCount, server.loadCatalog, locales) // sync loader directly exported
 
 export const handle: Handle = async ({ event, resolve }) => {
     let locale = getLocale(event.url)

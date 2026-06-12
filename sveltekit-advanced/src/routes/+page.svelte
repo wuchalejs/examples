@@ -2,7 +2,7 @@
 
 function plural(num: number, candidates: string[], rule = (n: number) => n === 1 ? 0 : 1) {
     const index = rule(num)
-    return candidates[index].replace('#', num.toString())
+    return candidates[index]!.replace('#', num.toString())
 }
 
 </script>

@@ -14,3 +14,28 @@ msgstr "This is component one."
 #: src/routes/granular-bundle/comp2.svelte
 msgid "This is component two"
 msgstr "This is component two"
+
+#: src/routes/granular-bundle/+page.svelte
+#, url:granularLoadBundle
+msgid "/"
+msgstr "/"
+
+#, url:granularLoadBundle
+msgid "/single"
+msgstr "/single"
+
+#, url:granularLoadBundle
+msgid "/granular"
+msgstr "/granular"
+
+#, url:granularLoadBundle
+msgid "/granular-bundle"
+msgstr "/granular-bundle"
+
+#, url:granularLoadBundle
+msgid "/server"
+msgstr "/server"
+
+#, url:granularLoadBundle
+msgid "/**"
+msgstr "/**"

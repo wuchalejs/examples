@@ -7,7 +7,6 @@ export default defineConfig({
     adapters: {
         main: adapter({
             loader: 'server',
-            outDir: 'dist',
         }),
     }
 })

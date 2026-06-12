@@ -16,9 +16,9 @@ if (isWebContainer()) {
     }
 }
 
-await loadLocales(main.key, main.loadIDs, main.loadCatalog, locales)
-await loadLocales(js.key, js.loadIDs, js.loadCatalog, locales)
-await loadLocales(lib.key, lib.loadIDs, lib.loadCatalog, locales)
+await loadLocales(main.key, main.loadCount, main.loadCatalog, locales)
+await loadLocales(js.key, js.loadCount, js.loadCatalog, locales)
+await loadLocales(lib.key, lib.loadCount, lib.loadCatalog, locales)
 
 export const handle: Handle = async ({ event, resolve }) => {
     const locale = event.url.searchParams.get('locale') ?? 'en';

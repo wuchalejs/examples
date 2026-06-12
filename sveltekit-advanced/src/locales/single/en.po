@@ -48,3 +48,33 @@ msgid "There is one item"
 msgid_plural "There are # items (to test plurals)"
 msgstr[0] "There is one item"
 msgstr[1] "There are # items (to test plurals)"
+
+#: src/routes/server/+page.svelte
+#: src/routes/single/+page.svelte
+#, url:single
+msgid "/"
+msgstr "/"
+
+#: src/routes/+layout.svelte
+#, url:single
+msgid "/single"
+msgstr "/single"
+
+#: src/routes/+layout.svelte
+#, url:single
+msgid "/granular"
+msgstr "/granular"
+
+#: src/routes/+layout.svelte
+#, url:single
+msgid "/granular-bundle"
+msgstr "/granular-bundle"
+
+#: src/routes/+layout.svelte
+#, url:single
+msgid "/server"
+msgstr "/server"
+
+#, url:single
+msgid "/**"
+msgstr "/**"

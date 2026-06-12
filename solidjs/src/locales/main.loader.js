@@ -1,13 +1,13 @@
 import { createStore } from 'solid-js/store'
 import { registerLoaders } from 'wuchale/load-utils'
-import { loadCatalog, loadIDs } from './.wuchale/main.proxy.js'
+import { loadCatalog, loadCount } from './.wuchale/main.proxy.js'
 
 const key = 'main'
 
-const [store, setStore] = createStore({})
+const [store, setStore] = createStore([])
 
 // two exports. can be the same because solid-js can use them anywhere unlike react
-export const getRuntimeRx = registerLoaders(key, loadCatalog, loadIDs, {
+export const getRuntimeRx = registerLoaders(key, loadCatalog, loadCount, {
     get: loadID => store[loadID],
     set: (loadID, runtime) => setStore(loadID, () => runtime),
 })

@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "extract": "wuchale",
-        "serve": "wuchale && node dist/src/index.js",
+        "serve": "node src/index.js",
         "installLatest": "npm i --prefer-online wuchale@latest",
         "installLocal": "npm i ../../wuchale/packages/wuchale",
         "build": "wuchale"
@@ -15,6 +15,6 @@
     "description": "",
     "dependencies": {
         "express": "^5.1.0",
-        "wuchale": "^0.23.4"
+        "wuchale": "^0.24.0"
     }
 }

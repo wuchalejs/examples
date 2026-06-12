@@ -1,0 +1,19 @@
+{
+	"name": "sv-lib",
+	"version": "0.0.1",
+	"files": [
+		"src"
+	],
+	"svelte": "./src/index.js",
+	"types": "./src/index.d.ts",
+	"type": "module",
+	"exports": {
+		".": {
+			"types": "./src/index.d.ts",
+			"svelte": "./src/index.js"
+		}
+	},
+	"peerDependencies": {
+		"svelte": "^5"
+	}
+}

@@ -1,19 +1,13 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-15T11:23:13.811Z\n"
-"PO-Revision-Date: 2025-10-05T19:01:05.427Z\n"
-"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"Source-Language: en\n"
 "Language: en\n"
-"Language-Team: \n"
+"MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
-"MIME-Version: 1.0\n"
-"Source-Language: en\n"
 
-#. placeholder {0}: counter
+#. 0: counter
 #: src/counter.ts
 msgid "Count is {0}"
 msgstr "Count is {0}"

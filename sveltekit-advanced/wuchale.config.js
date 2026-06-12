@@ -1,5 +1,5 @@
 // @ts-check
-import { defineConfig, defaultGenerateLoadID, pofile } from "wuchale"
+import { defineConfig, pofile } from "wuchale"
 import { adapter as svelte } from '@wuchale/svelte'
 import { adapter as vanilla } from "wuchale/adapter-vanilla"
 
@@ -11,7 +11,7 @@ const urlConf = {
         '/granular',
         '/granular-bundle',
         '/server',
-        '/*rest'
+        '/**'
     ]
 }
 
@@ -23,7 +23,7 @@ export default defineConfig({
         single: svelte({
             loader: 'sveltekit',
             url: urlConf,
-            storage: pofile({dir: './src/locales/single'}),
+            storage: pofile({location: './src/locales/single/{locale}.po'}),
             files: [
                 './src/routes/{single,server}/**/*.svelte',
                 './src/routes/single/**/*.svelte.{js,ts}',
@@ -39,14 +39,13 @@ export default defineConfig({
             loader: 'sveltekit',
             files: './src/routes/granular/**/*.svelte',
             url: urlConf,
-            storage: pofile({dir: './src/locales/granular'}),
-            granularLoad: true,
-            generateLoadID: filename => {
-                if (filename.includes('grouped')) {
-                    return 'grouped'
-                }
-                return defaultGenerateLoadID(filename)
-            },
+            storage: pofile({location: './src/locales/granular/{locale}.po'}),
+            loading: {
+                granular: true,
+                group: [
+                    '**/*grouped*',
+                ]
+            }
         }),
         // Applies over the granular-bundle route.
         // Each file directly imports all locale variants of its own catalog,
@@ -57,9 +56,11 @@ export default defineConfig({
             loader: 'sveltekit',
             files: './src/routes/granular-bundle/**/*.svelte',
             url: urlConf,
-            storage: pofile({dir: './src/locales/granular-bundle'}),
-            granularLoad: true,
-            bundleLoad: true,
+            storage: pofile({location: './src/locales/granular-bundle/{locale}.po'}),
+            loading: {
+                granular: true,
+                direct: true,
+            }
         }),
         // Used for messages that are sent from the server instead of being rendered client-side.
         // Uses one compiled catalog because bundle size optimizations are irrelevant on the server.
@@ -68,7 +69,7 @@ export default defineConfig({
         // Also since node.js is not a reactive environment, we have to initialize the runtime inside functions.
         server: vanilla({
             loader: 'server',
-            storage: pofile({dir: './src/locales/single'}),
+            storage: pofile({location: './src/locales/single/{locale}.po'}),
             files: './src/**/*.server.{js,ts}',
         }),
     },

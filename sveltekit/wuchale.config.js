@@ -18,7 +18,7 @@ export default defineConfig({
         }),
         lib: svelte({
             loader: 'sveltekit',
-            files: 'node_modules/sv-lib/dist/*.svelte',
+            files: 'node_modules/sv-lib/src/*.svelte',
         })
     }
 })
