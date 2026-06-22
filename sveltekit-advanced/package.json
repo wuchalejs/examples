@@ -17,7 +17,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^7.0.1",
-		"@sveltejs/kit": "^2.65.1",
+		"@sveltejs/kit": "^2.66.0",
 		"@sveltejs/vite-plugin-svelte": "^7.1.2",
 		"@tailwindcss/vite": "^4.3.1",
 		"@types/node": "^25.9.3",
@@ -30,6 +30,6 @@
 		"@webcontainer/env": "^1.1.1",
 		"@wuchale/svelte": "^0.20.0",
 		"tailwindcss": "^4.3.1",
-		"wuchale": "^0.24.1"
+		"wuchale": "^0.24.2"
 	}
 }

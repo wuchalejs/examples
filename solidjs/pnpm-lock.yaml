@@ -9,14 +9,14 @@ importers:
   .:
     dependencies:
       '@wuchale/jsx':
-        specifier: ^0.11.3
-        version: 0.11.3
+        specifier: ^0.12.0
+        version: 0.12.1(solid-js@1.9.13)
       solid-js:
         specifier: ^1.9.5
         version: 1.9.13
       wuchale:
-        specifier: ^0.23.4
-        version: 0.23.4
+        specifier: ^0.24.1
+        version: 0.24.2
     devDependencies:
       typescript:
         specifier: ^6.0.3
@@ -257,11 +257,19 @@ packages:
   '@types/babel__traverse@7.28.0':
     resolution: {integrity: sha512-8PvcXf70gTDZBgt9ptxJ8elBeBjcLOAcOtoO/mPJjtji1+CdGbHgm77om1GrsPxsiE+uXIpNSK64UYaIwQXd4Q==}
 
-  '@wuchale/jsx@0.11.3':
-    resolution: {integrity: sha512-dTpJXCmL0AXKk/RIROBSIY9oXkcAwu7KJhymQWEIEwHtks1QFh7546CEHcjO3NK5EH2zLYeE/fbgffrP3sjAnQ==}
+  '@wuchale/jsx@0.12.1':
+    resolution: {integrity: sha512-5RwyyU/a8D6cYNBNXOXiBf+IoNa5pZZ956MgeGCrl6udko7DTkI61EkevuA7P7renYS6AhlmALaM/ckxwaxTcw==}
+    peerDependencies:
+      react: ^19.1
+      solid-js: ^1.9
+    peerDependenciesMeta:
+      react:
+        optional: true
+      solid-js:
+        optional: true
 
-  acorn@8.16.0:
-    resolution: {integrity: sha512-UVJyE9MttOsBQIDKw1skb9nAwQuR5wuGD3+82K6JgJlm/Y+KI92oNsMNGZCYdDsVtRHSak0pcV5Dno5+4jh9sw==}
+  acorn@8.17.0:
+    resolution: {integrity: sha512-xRQbDb9BnwDafYNn6Vwl839DYVjqXYb1XVGtWAZ1kcDc6iwAL4hg3B1dZlRiuENFeO2H53gFG3in621AdERVAg==}
     engines: {node: '>=0.4.0'}
     hasBin: true
 
@@ -459,9 +467,6 @@ packages:
   parse5@7.3.0:
     resolution: {integrity: sha512-IInvU7fabl34qmi9gY8XOVxhYyMyuH2xUNpb2q8/Y+7552KlejkRvqvD19nMoUW/uQGGbqNpA6Tufu5FL5BZgw==}
 
-  path-to-regexp@8.4.2:
-    resolution: {integrity: sha512-qRcuIdP69NPm4qbACK+aDogI5CBDMi1jKe0ry5rSQJz8JVLsC7jV8XpiJjGRLLol3N+R5ihGYcrPLTno6pAdBA==}
-
   picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
 
@@ -590,8 +595,8 @@ packages:
       vite:
         optional: true
 
-  wuchale@0.23.4:
-    resolution: {integrity: sha512-lWX5SGNDhAXe31/rbmb0by9+yYTWgNQBgqOxbZawzR6mHZ3JzJPhtCYUwMj/P9LM8xxrzTbOPDV0cPeD/AKKKg==}
+  wuchale@0.24.2:
+    resolution: {integrity: sha512-iNXbccUY+0QUY7jptsjGobfYwnj5sKjcrKQgcFvV6PYUBkjOzxQSqc/LLYhALjXZxfneDs+Gm/cl1SnViEtM2A==}
     hasBin: true
 
   yallist@3.1.1:
@@ -805,9 +810,9 @@ snapshots:
 
   '@rolldown/pluginutils@1.0.1': {}
 
-  '@sveltejs/acorn-typescript@1.0.10(acorn@8.16.0)':
+  '@sveltejs/acorn-typescript@1.0.10(acorn@8.17.0)':
     dependencies:
-      acorn: 8.16.0
+      acorn: 8.17.0
 
   '@tybys/wasm-util@0.10.2':
     dependencies:
@@ -835,14 +840,15 @@ snapshots:
     dependencies:
       '@babel/types': 7.29.7
 
-  '@wuchale/jsx@0.11.3':
+  '@wuchale/jsx@0.12.1(solid-js@1.9.13)':
     dependencies:
-      '@sveltejs/acorn-typescript': 1.0.10(acorn@8.16.0)
-      acorn: 8.16.0
-      magic-string: 0.30.21
-      wuchale: 0.23.4
+      '@sveltejs/acorn-typescript': 1.0.10(acorn@8.17.0)
+      acorn: 8.17.0
+      wuchale: 0.24.2
+    optionalDependencies:
+      solid-js: 1.9.13
 
-  acorn@8.16.0: {}
+  acorn@8.17.0: {}
 
   babel-plugin-jsx-dom-expressions@0.40.7(@babel/core@7.29.7):
     dependencies:
@@ -982,8 +988,6 @@ snapshots:
     dependencies:
       entities: 6.0.1
 
-  path-to-regexp@8.4.2: {}
-
   picocolors@1.1.1: {}
 
   picomatch@4.0.4: {}
@@ -1087,13 +1091,12 @@ snapshots:
     optionalDependencies:
       vite: 8.0.16
 
-  wuchale@0.23.4:
+  wuchale@0.24.2:
     dependencies:
-      '@sveltejs/acorn-typescript': 1.0.10(acorn@8.16.0)
-      acorn: 8.16.0
+      '@sveltejs/acorn-typescript': 1.0.10(acorn@8.17.0)
+      acorn: 8.17.0
       chokidar: 5.0.0
       magic-string: 0.30.21
-      path-to-regexp: 8.4.2
       picomatch: 4.0.4
       pofile: 1.1.4
       tinyglobby: 0.2.17

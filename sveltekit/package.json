@@ -15,7 +15,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^7.0.1",
-		"@sveltejs/kit": "^2.65.1",
+		"@sveltejs/kit": "^2.66.0",
 		"@sveltejs/vite-plugin-svelte": "^7.1.2",
 		"@types/node": "^25.9.3",
 		"embedded": "^1.1.0",
@@ -29,6 +29,6 @@
 		"@webcontainer/env": "^1.1.1",
 		"@wuchale/svelte": "^0.20.0",
 		"sv-lib": "file:sv-lib/sv-lib-0.0.1.tgz",
-		"wuchale": "^0.24.1"
+		"wuchale": "^0.24.2"
 	}
 }

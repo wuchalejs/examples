@@ -12,17 +12,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@wuchale/jsx": "^0.12.0",
+    "@wuchale/jsx": "^0.12.1",
     "react": "^19.1.1",
     "react-dom": "^19.2.7",
-    "wuchale": "^0.24.1"
+    "wuchale": "^0.24.2"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.2",
-    "globals": "^17.6.0",
+    "globals": "^17.7.0",
     "typescript": "^6.0.3",
     "vite": "^8.0.16"
   }
