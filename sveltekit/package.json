@@ -27,8 +27,8 @@
 	},
 	"dependencies": {
 		"@webcontainer/env": "^1.1.1",
-		"@wuchale/svelte": "^0.20.0",
+		"@wuchale/svelte": "^0.20.1",
 		"sv-lib": "file:sv-lib/sv-lib-0.0.1.tgz",
-		"wuchale": "^0.24.1"
+		"wuchale": "^0.25.0"
 	}
 }

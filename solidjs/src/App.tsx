@@ -19,7 +19,7 @@ const App: Component = () => {
                     <button onClick={() => setLocale(locale() === 'en' ? 'es' : 'en')}>{locale()}</button>
                     <Counter />
                     <p>
-                        Edit 18 <code>src/App.tsx</code> and save to reload.
+                        Edit <code>src/App.tsx</code> and save to reload.
                     </p>
                     <a
                         class={styles.link}
