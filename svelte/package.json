@@ -16,11 +16,11 @@
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^7.1.2",
     "@tsconfig/svelte": "^5.0.8",
-    "@vitejs/devtools": "^0.1.24",
+    "@vitejs/devtools": "^0.3.3",
     "svelte": "^5.56.3",
-    "svelte-check": "^4.6.0",
+    "svelte-check": "^4.7.1",
     "typescript": "^6.0.3",
-    "vite": "^8.0.16",
+    "vite": "^8.1.0",
     "vite-plugin-inspect": "^11.4.1"
   },
   "dependencies": {
