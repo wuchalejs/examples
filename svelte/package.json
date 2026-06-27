@@ -24,7 +24,7 @@
     "vite-plugin-inspect": "^11.4.1"
   },
   "dependencies": {
-    "@wuchale/svelte": "^0.20.1",
-    "wuchale": "^0.25.2"
+    "@wuchale/svelte": "^0.20.2",
+    "wuchale": "^0.25.3"
   }
 }
