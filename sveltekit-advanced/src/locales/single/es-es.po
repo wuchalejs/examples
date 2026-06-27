@@ -58,12 +58,12 @@ msgstr "/"
 #: src/routes/+layout.svelte
 #, url:single
 msgid "/single"
-msgstr ""
+msgstr "/single"
 
 #: src/routes/+layout.svelte
 #, url:single
 msgid "/granular"
-msgstr ""
+msgstr "/granular"
 
 #: src/routes/+layout.svelte
 #, url:single

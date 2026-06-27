@@ -30,6 +30,6 @@
 		"@webcontainer/env": "^1.1.1",
 		"@wuchale/svelte": "^0.20.1",
 		"tailwindcss": "^4.3.1",
-		"wuchale": "^0.25.0"
+		"wuchale": "^0.25.2"
 	}
 }

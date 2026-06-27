@@ -15,7 +15,7 @@
     "@wuchale/jsx": "^0.12.2",
     "react": "^19.1.1",
     "react-dom": "^19.2.7",
-    "wuchale": "^0.25.0"
+    "wuchale": "^0.25.2"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
