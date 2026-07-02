@@ -25,6 +25,6 @@
   },
   "dependencies": {
     "@wuchale/svelte": "^0.20.3",
-    "wuchale": "^0.25.4"
+    "wuchale": "^0.25.5"
   }
 }
