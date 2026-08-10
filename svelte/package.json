@@ -21,7 +21,7 @@
     "svelte-check": "^4.7.5",
     "typescript": "^6.0.3",
     "vite": "^8.2.1",
-    "vite-plugin-inspect": "^11.4.1"
+    "vite-plugin-inspect": "^12.0.2"
   },
   "dependencies": {
     "@wuchale/svelte": "^0.20.5",
