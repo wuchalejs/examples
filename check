@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+set -e
+
+DIRS=(svelte sveltekit sveltekit-advanced react solidjs astro vanilla server)
+
+for dir in "${DIRS[@]}"; do
+    cd "$dir"
+
+    if [ "$1" == 'extract' ]; then
+        chmod u+x node_modules/.bin/wuchale
+        echo $dir
+        npx wuchale --clean
+    else
+        if [ "$1" == 'latest' ]; then
+            npm run installLatest
+        else
+            npm run installLocal
+        fi
+        npm run check --if-present
+        npm run build
+    fi
+
+    cd ..
+done
