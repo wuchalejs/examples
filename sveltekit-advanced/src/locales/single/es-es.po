@@ -1,11 +1,12 @@
 msgid ""
 msgstr ""
-"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
 "Source-Language: en\n"
 "Language: es-es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3\n"
+"X-Plurals-Order: one, many, other\n"
 
 #: src/routes/server/+page.server.ts
 msgid "Hello from the server!"
@@ -65,6 +66,7 @@ msgstr "/single"
 msgid "/granular"
 msgstr "/granular"
 
+#. /granular-bundle#foo/bar
 #: src/routes/+layout.svelte
 #, url:single
 msgid "/granular-bundle"

@@ -1,11 +1,12 @@
 msgid ""
 msgstr ""
-"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
 "Source-Language: en\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2\n"
+"X-Plurals-Order: one, other\n"
 
 #: src/components/Welcome.astro
 msgid "Astro home"
@@ -31,11 +32,3 @@ msgstr "You're viewing the {0} page."
 #: src/layouts/Layout.astro
 msgid "Astro Basics"
 msgstr "Astro Basics"
-
-#: src/components/Welcome.astro
-msgid "What's New in Astro 6.0?"
-msgstr "What's New in Astro 6.0?"
-
-#: src/components/Welcome.astro
-msgid "Redesigned dev server, fonts, live collections, built-in CSP support, and more! Click to explore Astro 6.0's new features."
-msgstr "Redesigned dev server, fonts, live collections, built-in CSP support, and more! Click to explore Astro 6.0's new features."

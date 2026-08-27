@@ -28,8 +28,8 @@
 	},
 	"dependencies": {
 		"@webcontainer/env": "^1.1.1",
-		"@wuchale/svelte": "^0.20.5",
+		"@wuchale/svelte": "file:../../wuchale/packages/svelte",
 		"tailwindcss": "^4.3.3",
-		"wuchale": "^0.25.6"
+		"wuchale": "file:../../wuchale/packages/wuchale"
 	}
 }

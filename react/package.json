@@ -12,10 +12,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@wuchale/jsx": "^0.12.5",
+    "@wuchale/jsx": "file:../../wuchale/packages/jsx",
     "react": "^19.1.1",
     "react-dom": "^19.2.8",
-    "wuchale": "^0.25.6"
+    "wuchale": "file:../../wuchale/packages/wuchale"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

@@ -18,7 +18,7 @@
     <ul>
         <li class="ml-6 text-blue-600"><a href="/single" data-sveltekit-preload-data="off">Single</a></li>
         <li class="ml-6 text-blue-600"><a href="/granular" data-sveltekit-preload-data="off">Granular</a></li>
-        <li class="ml-6 text-blue-600"><a href="/granular-bundle" data-sveltekit-preload-data="off">Granular bundle</a></li>
+        <li class="ml-6 text-blue-600"><a href="/granular-bundle#foo/bar" data-sveltekit-preload-data="off">Granular bundle</a></li>
         <li class="ml-6 text-blue-600"><a href="/server" data-sveltekit-preload-data="off">Server</a></li>
     </ul>
 </nav>
