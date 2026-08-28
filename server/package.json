@@ -15,6 +15,6 @@
     "description": "",
     "dependencies": {
         "express": "^5.1.0",
-        "wuchale": "file:../../wuchale/packages/wuchale"
+        "wuchale": "^0.26.1"
     }
 }

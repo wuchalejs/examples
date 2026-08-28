@@ -23,7 +23,7 @@
     "vite": "^8.2.2"
   },
   "dependencies": {
-    "@wuchale/svelte": "file:../../wuchale/packages/svelte",
-    "wuchale": "file:../../wuchale/packages/wuchale"
+    "@wuchale/svelte": "^0.21.0",
+    "wuchale": "^0.26.1"
   }
 }
