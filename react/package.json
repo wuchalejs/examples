@@ -15,15 +15,15 @@
     "@wuchale/jsx": "^0.13.0",
     "react": "^19.1.1",
     "react-dom": "^19.2.8",
-    "wuchale": "^0.26.1"
+    "wuchale": "^0.26.2"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@types/react": "^19.2.18",
-    "@types/react-dom": "^19.2.4",
-    "@vitejs/plugin-react": "^6.0.5",
-    "globals": "^17.9.0",
+    "@types/react-dom": "^19.2.5",
+    "@vitejs/plugin-react": "^6.1.1",
+    "globals": "^17.11.0",
     "typescript": "^6.0.3",
-    "vite": "^8.2.1"
+    "vite": "^8.2.2"
   }
 }

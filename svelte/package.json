@@ -14,16 +14,16 @@
     "clean": "wuchale --clean"
   },
   "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "^7.2.0",
+    "@sveltejs/vite-plugin-svelte": "^7.3.0",
     "@tsconfig/svelte": "^5.0.8",
-    "@vitejs/devtools": "^0.4.12",
+    "@vitejs/devtools": "^0.6.2",
     "svelte": "^5.56.3",
-    "svelte-check": "^4.7.5",
+    "svelte-check": "^4.7.6",
     "typescript": "^6.0.3",
     "vite": "^8.2.2"
   },
   "dependencies": {
-    "@wuchale/svelte": "^0.21.0",
-    "wuchale": "^0.26.1"
+    "@wuchale/svelte": "^0.21.1",
+    "wuchale": "^0.26.2"
   }
 }
