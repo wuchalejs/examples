@@ -1,25 +1,46 @@
 #!/usr/bin/env bash
 
-set -e
+function w_check {
+    echo ">> $2"
 
-DIRS=(svelte sveltekit sveltekit-advanced react solidjs astro vanilla server)
+    cd "$2"
 
-for dir in "${DIRS[@]}"; do
-    cd "$dir"
+    rm src/locales/.wuchale -rf
 
     if [ "$1" == 'extract' ]; then
         chmod u+x node_modules/.bin/wuchale
-        echo $dir
+        echo $2
         npx wuchale --clean
     else
+        packs=$(npm run platest --silent)
+        npm rm $packs
         if [ "$1" == 'latest' ]; then
-            npm run installLatest
+            npm i $packs --prefer-online
         else
-            npm run installLocal
+            plocal=$(npm run plocal --silent)
+            if [ "$1" == 'link' ]; then
+                npm i $plocal # symlink
+            else
+                npm i $plocal --install-links # copy as pack
+            fi
         fi
+        npx wuchale --clean --log-level error
         npm run check --if-present
         npm run build
     fi
 
     cd ..
-done
+}
+
+if [[ $1 == 'extract' || $1 == 'latest' || $1 == 'link' || $1 == 'pack' ]]; then
+    set -e
+    for dir in */; do
+        if [ $dir == "rnd/" ]; then
+            continue
+        fi
+        w_check $1 $dir
+    done
+    set +e
+else
+    echo "Invalid cmd $1"
+fi

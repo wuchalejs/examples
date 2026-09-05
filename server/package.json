@@ -6,8 +6,10 @@
     "scripts": {
         "extract": "wuchale",
         "serve": "node src/index.js",
-        "installLatest": "npm i --prefer-online wuchale@latest",
-        "installLocal": "npm i ../../wuchale/packages/wuchale",
+        "platest": "echo wuchale",
+        "plocal": "echo ../../wuchale/packages/wuchale",
+        "ilatest": "npm i $(npm run platest --silent)",
+        "ilocal": "npm i $(npm run plocal --silent)",
         "build": "wuchale"
     },
     "author": "",
@@ -15,6 +17,6 @@
     "description": "",
     "dependencies": {
         "express": "^5.1.0",
-        "wuchale": "^0.26.1"
+        "wuchale": "^0.26.4"
     }
 }

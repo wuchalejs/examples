@@ -6,8 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "installLatest": "npm i --prefer-online wuchale@latest @wuchale/jsx@latest",
-    "installLocal": "npm i ../../wuchale/packages/wuchale ../../wuchale/packages/jsx",
+    "platest": "echo wuchale @wuchale/jsx",
+    "plocal": "echo ../../wuchale/packages/wuchale ../../wuchale/packages/jsx",
+    "ilatest": "npm i $(npm run platest --silent)",
+    "ilocal": "npm i $(npm run plocal --silent)",
     "check": "tsc --noEmit",
     "preview": "vite preview"
   },
@@ -15,7 +17,7 @@
     "@wuchale/jsx": "^0.13.0",
     "react": "^19.1.1",
     "react-dom": "^19.2.8",
-    "wuchale": "^0.26.1"
+    "wuchale": "^0.26.4"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

@@ -6,8 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "installLatest": "npm i wuchale@latest",
-    "installLocal": "npm i ../../wuchale/packages/wuchale",
+    "platest": "echo wuchale",
+    "plocal": "echo ../../wuchale/packages/wuchale",
+    "ilatest": "npm i $(npm run platest --silent)",
+    "ilocal": "npm i $(npm run plocal --silent)",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -15,6 +17,6 @@
     "vite": "^8.2.1"
   },
   "dependencies": {
-    "wuchale": "^0.26.1"
+    "wuchale": "^0.26.4"
   }
 }

@@ -4,8 +4,10 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "installLatest": "npm i --prefer-online wuchale@latest @wuchale/astro@latest",
-    "installLocal": "npm i ../../wuchale/packages/wuchale ../../wuchale/packages/astro",
+    "platest": "echo wuchale @wuchale/astro",
+    "plocal": "echo ../../wuchale/packages/wuchale ../../wuchale/packages/astro",
+    "ilatest": "npm i $(npm run platest --silent)",
+    "ilocal": "npm i $(npm run plocal --silent)",
     "check": "tsc --noEmit",
     "build": "astro build",
     "preview": "astro preview",
@@ -13,9 +15,9 @@
   },
   "dependencies": {
     "@webcontainer/env": "^1.1.1",
-    "@wuchale/astro": "^0.5.0",
+    "@wuchale/astro": "^0.5.1",
     "astro": "^7.2.9",
-    "wuchale": "^0.26.1"
+    "wuchale": "^0.26.4"
   },
   "devDependencies": {
     "typescript": "^6.0.3"

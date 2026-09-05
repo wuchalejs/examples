@@ -8,8 +8,10 @@
     "build": "vite build",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json",
-    "installLatest": "npm i --prefer-online wuchale@latest @wuchale/svelte@latest",
-    "installLocal": "npm i ../../wuchale/packages/wuchale ../../wuchale/packages/svelte",
+    "platest": "echo wuchale @wuchale/svelte",
+    "plocal": "echo ../../wuchale/packages/wuchale ../../wuchale/packages/svelte",
+    "ilatest": "npm i $(npm run platest --silent)",
+    "ilocal": "npm i $(npm run plocal --silent)",
     "extract": "wuchale",
     "clean": "wuchale --clean"
   },
@@ -23,7 +25,7 @@
     "vite": "^8.2.2"
   },
   "dependencies": {
-    "@wuchale/svelte": "^0.21.0",
-    "wuchale": "^0.26.1"
+    "@wuchale/svelte": "^0.21.1",
+    "wuchale": "^0.26.4"
   }
 }
