@@ -19,12 +19,12 @@
 		"@sveltejs/adapter-auto": "^7.0.1",
 		"@sveltejs/kit": "^2.70.3",
 		"@sveltejs/vite-plugin-svelte": "^7.3.0",
-		"@types/node": "^25.9.5",
+		"@types/node": "^25.9.6",
 		"sass": "^1.104.0",
 		"svelte": "^5.57.0",
 		"svelte-check": "^4.7.6",
 		"typescript": "^6.0.3",
-		"vite": "^8.2.2"
+		"vite": "^8.3.0"
 	},
 	"dependencies": {
 		"@webcontainer/env": "^1.1.1",

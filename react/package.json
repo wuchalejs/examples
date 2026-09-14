@@ -16,15 +16,15 @@
   "dependencies": {
     "@wuchale/jsx": "^0.13.0",
     "react": "^19.1.1",
-    "react-dom": "^19.2.8",
+    "react-dom": "^19.3.0",
     "wuchale": "^0.26.6"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@types/react": "^19.2.18",
-    "@types/react-dom": "^19.2.7",
+    "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.1.1",
     "typescript": "^6.0.3",
-    "vite": "^8.2.2"
+    "vite": "^8.3.0"
   }
 }
